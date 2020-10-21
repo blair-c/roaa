@@ -1,0 +1,154 @@
+{
+  "Fire Capital": {
+    "Top": 612,
+    "Side": 484,
+    "Bottom": 432,
+    "Ground Width": 832,
+    "Platform Heights": [192, 96, 96, 192],
+    "Platform Widths": [128, 124, 124, 128],
+    "icon": ""
+  },
+  "Air Armada": {
+    "Top": 564,
+    "Side": 396,
+    "Bottom": 416,
+    "Ground Width": 688,
+    "Platform Heights": [176, 176],
+    "Platform Widths": [184, 184],
+    "icon": ""
+  },
+  "Rock Wall": {
+    "Top": 580,
+    "Side": 356,
+    "Bottom": 400,
+    "Ground Width": 768,
+    "Platform Heights": [96, 192, 96, 192],
+    "Platform Widths": [128, 128, 128, 128],
+    "icon": ""
+  },
+  "Merchant Port": {
+    "Top": 596,
+    "Side": 452,
+    "Bottom": 384,
+    "Ground Width": 672,
+    "Platform Heights": [96, 176, 96, 176],
+    "Platform Widths": [112, 80, 80, 112],
+    "icon": ""
+  },
+  "Treetop Lodge (Singles)": {
+    "Top": 612,
+    "Side": 484,
+    "Bottom": 368,
+    "Ground Width": 512,
+    "Platform Heights": [96, 162],
+    "Platform Widths": [192, 188],
+    "icon": ""
+  },
+  "Treetop Lodge (Doubles)": {
+    "Top": 612,
+    "Side": 388,
+    "Bottom": 368,
+    "Ground Width": 704,
+    "Platform Heights": [96, 162, 192],
+    "Platform Widths": [192, 188, 112],
+    "icon": ""
+  },
+  "Blazing Hideout": {
+    "Top": 596,
+    "Side": 500,
+    "Bottom": 384,
+    "Ground Width": 640,
+    "Platform Height": 128,
+    "Platform Width": 384,
+    "icon": ""
+  },
+  "Tempest Peak": {
+    "Top": 628,
+    "Side": 536,
+    "Bottom": 400,
+    "Ground Width": 512,
+    "Platform Heights": [32, 96, 96, 32],
+    "Platform Widths": [124, 124, 124, 124],
+    "icon": ""
+  },
+  "Frozen Fortress": {
+    "Top": 600,
+    "Side": 442,
+    "Bottom": 396,
+    "Ground Width": 768,
+    "Platform Heights": [192, 96, 192],
+    "Platform Widths": [162, 154, 162],
+    "icon": ""
+  },
+  "Tower of Heaven": {
+    "Top": 596,
+    "Side": 420,
+    "Bottom": 384,
+    "Ground Width": 640,
+    "Platform Heights": [96, 192, 96],
+    "Platform Widths": [128, 128, 128],
+    "icon": ""
+  },
+  "Aethereal Gates": {
+    "Top": 612,
+    "Side": 500,
+    "Bottom": 376,
+    "Ground Width": 640,
+    "Platform Heights": [112, 112],
+    "Platform Widths": [156, 156],
+    "icon": ""
+  },
+  "The Endless Abyss": {
+    "Top": 570,
+    "Side": 464,
+    "Bottom": 432,
+    "Ground Width": 672,
+    "icon": ""
+  },
+  "The Spirit Tree": {
+    "Top": 556,
+    "Side": 484,
+    "Bottom": 392,
+    "Ground Width": 576,
+    "Platform Heights": [82, 82],
+    "Platform Widths": [192, 192],
+    "icon": ""
+  },
+  "The Forest Floor (Singles)": {
+    "Top": 564,
+    "Side": 440,
+    "Bottom": 376,
+    "Ground Width": 704,
+    "Platform Heights": [96, 96],
+    "Platform Widths": [120, 120],
+    "icon": ""
+  },
+  "The Forest Floor (Doubles)": {
+    "Top": 564,
+    "Side": 440,
+    "Bottom": 376,
+    "Ground Width": 896,
+    "Platform Heights": [96, 192, 96, 192, 96],
+    "Platform Widths": [120, 120, 128, 120, 120],
+    "icon": ""
+  },
+  "Julesvale": {
+    "Top": 590,
+    "Side": 460,
+    "Bottom": 400,
+    "Ground Width": 576,
+    "Platform Heights": [96, 192],
+    "Platform Widths": [],
+    "icon": ""
+  },
+  "Troupple Pond": {
+    "Top": 600,
+    "Side": 500,
+    "Bottom": 416,
+    "Ground Width": 512,
+    "Platform Heights": [96, 192, 96],
+    "Platform Widths": [186, 186, 186],
+    "icon": ""
+  },
+  "": {}
+}
