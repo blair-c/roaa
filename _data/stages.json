@@ -138,7 +138,7 @@
     "Bottom": 400,
     "Ground Width": 576,
     "Platform Heights": [96, 192],
-    "Platform Widths": [],
+    "Platform Widths": [192, 96],
     "icon": ""
   },
   "Troupple Pond": {
