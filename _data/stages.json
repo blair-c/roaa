@@ -1,153 +1,563 @@
 {
   "Fire Capital": {
-    "Top": 612,
-    "Side": 484,
-    "Bottom": 432,
-    "Ground Width": 832,
-    "Platform Heights": [192, 96, 96, 192],
-    "Platform Widths": [128, 124, 124, 128],
-    "icon": ""
+    "Top": {
+      "value": 612,
+      "comparison": "large"
+    },
+    "Side": {
+      "value": 484,
+      "comparison": "large"
+    },
+    "Bottom": {
+      "value": 432,
+      "comparison": "largest"
+    },
+    "Ground Width": {
+      "value": 832,
+      "comparison": "large"
+    },
+    "platforms": [
+      {
+        "height": 192,
+        "width": 128
+      },
+      {
+        "height": 96,
+        "width": 124
+      },
+      {
+        "height": 96,
+        "width": 124
+      },
+      {
+        "height": 192,
+        "width": 128
+      }
+    ],
+    "icon": "",
+    "alts": [
+      {
+        "name": "Neo Fire Capital",
+        "icon": ""
+      }
+    ]
   },
   "Air Armada": {
-    "Top": 564,
-    "Side": 396,
-    "Bottom": 416,
-    "Ground Width": 688,
-    "Platform Heights": [176, 176],
-    "Platform Widths": [184, 184],
+    "Top": {
+      "value": 564,
+      "comparison": "small"
+    },
+    "Side": {
+      "value": 396,
+      "comparison": "small"
+    },
+    "Bottom": {
+      "value": 416,
+      "comparison": "large"
+    },
+    "Ground Width": {
+      "value": 688,
+      "comparison": "average"
+    },
+    "platforms": [
+      {
+        "height": 176,
+        "width": 184
+      },
+      {
+        "height": 176,
+        "width": 184
+      }
+    ],
     "icon": ""
   },
   "Rock Wall": {
-    "Top": 580,
-    "Side": 356,
-    "Bottom": 400,
-    "Ground Width": 768,
-    "Platform Heights": [96, 192, 96, 192],
-    "Platform Widths": [128, 128, 128, 128],
-    "icon": ""
+    "Top": {
+      "value": 580,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 356,
+      "comparison": "smallest"
+    },
+    "Bottom": {
+      "value": 400,
+      "comparison": "average"
+    },
+    "Ground Width": {
+      "value": 768,
+      "comparison": "large"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 128
+      },
+      {
+        "height": 192,
+        "width": 128
+      },
+      {
+        "height": 96,
+        "width": 128
+      },
+      {
+        "height": 192,
+        "width": 128
+      }
+    ],
+    "icon": "",
+    "alts": [
+      {
+        "name": "The CEO Ring",
+        "icon": ""
+      },
+      {
+        "name": "The ROA Ring",
+        "icon": ""
+      }
+    ]
   },
   "Merchant Port": {
-    "Top": 596,
-    "Side": 452,
-    "Bottom": 384,
-    "Ground Width": 672,
-    "Platform Heights": [96, 176, 96, 176],
-    "Platform Widths": [112, 80, 80, 112],
-    "icon": ""
+    "Top": {
+      "value": 596,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 452,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 384,
+      "comparison": "small"
+    },
+    "Ground Width": {
+      "value": 672,
+      "comparison": "average"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 112
+      },
+      {
+        "height": 176,
+        "width": 80
+      },
+      {
+        "height": 96,
+        "width": 80
+      },
+      {
+        "height": 176,
+        "width": 112
+      }
+    ],
+    "icon": "",
+    "alts": [
+      {
+        "name": "The Swampy Estuary",
+        "icon": ""
+      }
+    ]
   },
   "Treetop Lodge (Singles)": {
-    "Top": 612,
-    "Side": 484,
-    "Bottom": 368,
-    "Ground Width": 512,
-    "Platform Heights": [96, 162],
-    "Platform Widths": [192, 188],
+    "Top": {
+      "value": 612,
+      "comparison": "large"
+    },
+    "Side": {
+      "value": 484,
+      "comparison": "large"
+    },
+    "Bottom": {
+      "value": 368,
+      "comparison": "smallest"
+    },
+    "Ground Width": {
+      "value": 512,
+      "comparison": "smallest"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 192
+      },
+      {
+        "height": 162,
+        "width": 188
+      }
+    ],
     "icon": ""
   },
   "Treetop Lodge (Doubles)": {
-    "Top": 612,
-    "Side": 388,
-    "Bottom": 368,
-    "Ground Width": 704,
-    "Platform Heights": [96, 162, 192],
-    "Platform Widths": [192, 188, 112],
+    "Top": {
+      "value": 612,
+      "comparison": "large"
+    },
+    "Side": {
+      "value": 484,
+      "comparison": "large"
+    },
+    "Bottom": {
+      "value": 368,
+      "comparison": "smallest"
+    },
+    "Ground Width": {
+      "value": 512,
+      "comparison": "smallest"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 192
+      },
+      {
+        "height": 162,
+        "width": 188
+      },
+      {
+        "height": 192,
+        "width": 112
+      }
+    ],
     "icon": ""
   },
   "Blazing Hideout": {
-    "Top": 596,
-    "Side": 500,
-    "Bottom": 384,
-    "Ground Width": 640,
-    "Platform Height": 128,
-    "Platform Width": 384,
+    "Top": {
+      "value": 596,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 500,
+      "comparison": "large"
+    },
+    "Bottom": {
+      "value": 384,
+      "comparison": "small"
+    },
+    "Ground Width": {
+      "value": 640,
+      "comparison": "average"
+    },
+    "platforms": [
+      {
+        "height": 128,
+        "width": 384
+      }
+    ],
     "icon": ""
   },
   "Tempest Peak": {
-    "Top": 628,
-    "Side": 536,
-    "Bottom": 400,
-    "Ground Width": 512,
-    "Platform Heights": [32, 96, 96, 32],
-    "Platform Widths": [124, 124, 124, 124],
+    "Top": {
+      "value": 628,
+      "comparison": "largest"
+    },
+    "Side": {
+      "value": 536,
+      "comparison": "largest"
+    },
+    "Bottom": {
+      "value": 400,
+      "comparison": "average"
+    },
+    "Ground Width": {
+      "value": 512,
+      "comparison": "smallest"
+    },
+    "platforms": [
+      {
+        "height": 32,
+        "width": 124
+      },
+      {
+        "height": 96,
+        "width": 124
+      },
+      {
+        "height": 96,
+        "width": 124
+      },
+      {
+        "height": 32,
+        "width": 124
+      }
+    ],
     "icon": ""
   },
   "Frozen Fortress": {
-    "Top": 600,
-    "Side": 442,
-    "Bottom": 396,
-    "Ground Width": 768,
-    "Platform Heights": [192, 96, 192],
-    "Platform Widths": [162, 154, 162],
+    "Top": {
+      "value": 600,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 442,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 396,
+      "comparison": "average"
+    },
+    "Ground Width": {
+      "value": 768,
+      "comparison": "large"
+    },
+    "platforms": [
+      {
+        "height": 192,
+        "width": 162
+      },
+      {
+        "height": 96,
+        "width": 154
+      },
+      {
+        "height": 192,
+        "width": 162
+      }
+    ],
     "icon": ""
   },
   "Tower of Heaven": {
-    "Top": 596,
-    "Side": 420,
-    "Bottom": 384,
-    "Ground Width": 640,
-    "Platform Heights": [96, 192, 96],
-    "Platform Widths": [128, 128, 128],
+    "Top": {
+      "value": 596,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 420,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 384,
+      "comparison": "small"
+    },
+    "Ground Width": {
+      "value": 640,
+      "comparison": "average"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 128
+      },
+      {
+        "height": 192,
+        "width": 128
+      },
+      {
+        "height": 96,
+        "width": 128
+      }
+    ],
     "icon": ""
   },
   "Aethereal Gates": {
-    "Top": 612,
-    "Side": 500,
-    "Bottom": 376,
-    "Ground Width": 640,
-    "Platform Heights": [112, 112],
-    "Platform Widths": [156, 156],
+    "Top": {
+      "value": 612,
+      "comparison": "large"
+    },
+    "Side": {
+      "value": 500,
+      "comparison": "large0"
+    },
+    "Bottom": {
+      "value": 376,
+      "comparison": "small"
+    },
+    "Ground Width": {
+      "value": 640,
+      "comparison": "average"
+    },
+    "platforms": [
+      {
+        "height": 112,
+        "width": 156
+      },
+      {
+        "height": 112,
+        "width": 156
+      }
+    ],
     "icon": ""
   },
   "The Endless Abyss": {
-    "Top": 570,
-    "Side": 464,
-    "Bottom": 432,
-    "Ground Width": 672,
+    "Top": {
+      "value": 570,
+      "comparison": "small"
+    },
+    "Side": {
+      "value": 464,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 432,
+      "comparison": "largest"
+    },
+    "Ground Width": {
+      "value": 672,
+      "comparison": "average"
+    },
     "icon": ""
   },
   "The Spirit Tree": {
-    "Top": 556,
-    "Side": 484,
-    "Bottom": 392,
-    "Ground Width": 576,
-    "Platform Heights": [82, 82],
-    "Platform Widths": [192, 192],
+    "Top": {
+      "value": 556,
+      "comparison": "smallest"
+    },
+    "Side": {
+      "value": 484,
+      "comparison": "large"
+    },
+    "Bottom": {
+      "value": 392,
+      "comparison": "average"
+    },
+    "Ground Width": {
+      "value": 576,
+      "comparison": "small"
+    },
+    "platforms": [
+      {
+        "height": 82,
+        "width": 192
+      },
+      {
+        "height": 82,
+        "width": 192
+      }
+    ],
     "icon": ""
   },
   "The Forest Floor (Singles)": {
-    "Top": 564,
-    "Side": 440,
-    "Bottom": 376,
-    "Ground Width": 704,
-    "Platform Heights": [96, 96],
-    "Platform Widths": [120, 120],
+    "Top": {
+      "value": 564,
+      "comparison": "small"
+    },
+    "Side": {
+      "value": 440,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 376,
+      "comparison": "small"
+    },
+    "Ground Width": {
+      "value": 896,
+      "comparison": "largest"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 120
+      },
+      {
+        "height": 96,
+        "width": 120
+      }
+    ],
     "icon": ""
   },
   "The Forest Floor (Doubles)": {
-    "Top": 564,
-    "Side": 440,
-    "Bottom": 376,
-    "Ground Width": 896,
-    "Platform Heights": [96, 192, 96, 192, 96],
-    "Platform Widths": [120, 120, 128, 120, 120],
+    "Top": {
+      "value": 564,
+      "comparison": "small"
+    },
+    "Side": {
+      "value": 440,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 376,
+      "comparison": "small"
+    },
+    "Ground Width": {
+      "value": 896,
+      "comparison": "largest"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 120
+      },
+      {
+        "height": 192,
+        "width": 120
+      },
+      {
+        "height": 96,
+        "width": 128
+      },
+      {
+        "height": 192,
+        "width": 120
+      },
+      {
+        "height": 96,
+        "width": 120
+      }
+    ],
     "icon": ""
   },
   "Julesvale": {
-    "Top": 590,
-    "Side": 460,
-    "Bottom": 400,
-    "Ground Width": 576,
-    "Platform Heights": [96, 192],
-    "Platform Widths": [192, 96],
+    "Top": {
+      "value": 590,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 460,
+      "comparison": "average"
+    },
+    "Bottom": {
+      "value": 400,
+      "comparison": "average"
+    },
+    "Ground Width": {
+      "value": 576,
+      "comparison": "small"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 192
+      },
+      {
+        "height": 192,
+        "width": 96
+      }
+    ],
     "icon": ""
   },
   "Troupple Pond": {
-    "Top": 600,
-    "Side": 500,
-    "Bottom": 416,
-    "Ground Width": 512,
-    "Platform Heights": [96, 192, 96],
-    "Platform Widths": [186, 186, 186],
+    "Top": {
+      "value": 600,
+      "comparison": "average"
+    },
+    "Side": {
+      "value": 500,
+      "comparison": "large"
+    },
+    "Bottom": {
+      "value": 416,
+      "comparison": "large"
+    },
+    "Ground Width": {
+      "value": 512,
+      "comparison": "smallest"
+    },
+    "platforms": [
+      {
+        "height": 96,
+        "width": 186
+      },
+      {
+        "height": 192,
+        "width": 186
+      },
+      {
+        "height": 96,
+        "width": 186
+      }
+    ],
     "icon": ""
   }
 }
