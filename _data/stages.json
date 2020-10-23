@@ -71,7 +71,7 @@
     ],
     "icon": ""
   },
-  "Rock Wall": {
+  "The Rock Wall": {
     "Top": {
       "value": 580,
       "comparison": "average"
@@ -349,7 +349,13 @@
         "width": 128
       }
     ],
-    "icon": ""
+    "icon": "",
+    "alts": [
+      {
+        "name": "Aether High",
+        "icon": ""
+      }
+    ]
   },
   "Aethereal Gates": {
     "Top": {
@@ -378,7 +384,13 @@
         "width": 156
       }
     ],
-    "icon": ""
+    "icon": "",
+    "alts": [
+      {
+        "name": "Frozen Gates",
+        "icon": ""
+      }
+    ]
   },
   "The Endless Abyss": {
     "Top": {
@@ -397,7 +409,13 @@
       "value": 672,
       "comparison": "average"
     },
-    "icon": ""
+    "icon": "",
+    "alts": [
+      {
+        "name": "The Tutorial Grid",
+        "icon": ""
+      }
+    ]
   },
   "The Spirit Tree": {
     "Top": {
@@ -558,6 +576,12 @@
         "width": 186
       }
     ],
-    "icon": ""
+    "icon": "",
+    "alts": [
+      {
+        "name": "Pridemoor Keep",
+        "icon": ""
+      }
+    ]
   }
 }
