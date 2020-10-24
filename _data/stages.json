@@ -1,5 +1,6 @@
 {
   "Fire Capital": {
+    "alts": ["Neo Fire Capital"],
     "Top": {
       "value": 612,
       "comparison": "large"
@@ -33,13 +34,6 @@
         "height": 192,
         "width": 128
       }
-    ],
-    "icon": "",
-    "alts": [
-      {
-        "name": "Neo Fire Capital",
-        "icon": ""
-      }
     ]
   },
   "Air Armada": {
@@ -68,10 +62,10 @@
         "height": 176,
         "width": 184
       }
-    ],
-    "icon": ""
+    ]
   },
   "The Rock Wall": {
+    "alts": ["The CEO Ring", "The ROA Ring"],
     "Top": {
       "value": 580,
       "comparison": "average"
@@ -105,20 +99,10 @@
         "height": 192,
         "width": 128
       }
-    ],
-    "icon": "",
-    "alts": [
-      {
-        "name": "The CEO Ring",
-        "icon": ""
-      },
-      {
-        "name": "The ROA Ring",
-        "icon": ""
-      }
     ]
   },
   "Merchant Port": {
+    "alts": ["The Swampy Estuary"],
     "Top": {
       "value": 596,
       "comparison": "average"
@@ -152,13 +136,6 @@
         "height": 176,
         "width": 112
       }
-    ],
-    "icon": "",
-    "alts": [
-      {
-        "name": "The Swampy Estuary",
-        "icon": ""
-      }
     ]
   },
   "Treetop Lodge (Singles)": {
@@ -187,8 +164,7 @@
         "height": 162,
         "width": 188
       }
-    ],
-    "icon": ""
+    ]
   },
   "Treetop Lodge (Doubles)": {
     "Top": {
@@ -220,8 +196,7 @@
         "height": 192,
         "width": 112
       }
-    ],
-    "icon": ""
+    ]
   },
   "Blazing Hideout": {
     "Top": {
@@ -245,8 +220,7 @@
         "height": 128,
         "width": 384
       }
-    ],
-    "icon": ""
+    ]
   },
   "Tempest Peak": {
     "Top": {
@@ -282,8 +256,7 @@
         "height": 32,
         "width": 124
       }
-    ],
-    "icon": ""
+    ]
   },
   "Frozen Fortress": {
     "Top": {
@@ -315,10 +288,10 @@
         "height": 192,
         "width": 162
       }
-    ],
-    "icon": ""
+    ]
   },
   "Tower of Heaven": {
+    "alts": ["Aether High"],
     "Top": {
       "value": 596,
       "comparison": "average"
@@ -348,16 +321,10 @@
         "height": 96,
         "width": 128
       }
-    ],
-    "icon": "",
-    "alts": [
-      {
-        "name": "Aether High",
-        "icon": ""
-      }
     ]
   },
   "Aethereal Gates": {
+    "alts": ["Frozen Gates"],
     "Top": {
       "value": 612,
       "comparison": "large"
@@ -383,16 +350,10 @@
         "height": 112,
         "width": 156
       }
-    ],
-    "icon": "",
-    "alts": [
-      {
-        "name": "Frozen Gates",
-        "icon": ""
-      }
     ]
   },
   "The Endless Abyss": {
+    "alts": ["The Tutorial Grid"],
     "Top": {
       "value": 570,
       "comparison": "small"
@@ -408,14 +369,7 @@
     "Ground Width": {
       "value": 672,
       "comparison": "average"
-    },
-    "icon": "",
-    "alts": [
-      {
-        "name": "The Tutorial Grid",
-        "icon": ""
-      }
-    ]
+    }
   },
   "The Spirit Tree": {
     "Top": {
@@ -443,8 +397,7 @@
         "height": 82,
         "width": 192
       }
-    ],
-    "icon": ""
+    ]
   },
   "The Forest Floor (Singles)": {
     "Top": {
@@ -472,8 +425,7 @@
         "height": 96,
         "width": 120
       }
-    ],
-    "icon": ""
+    ]
   },
   "The Forest Floor (Doubles)": {
     "Top": {
@@ -513,8 +465,7 @@
         "height": 96,
         "width": 120
       }
-    ],
-    "icon": ""
+    ]
   },
   "Julesvale": {
     "Top": {
@@ -542,10 +493,10 @@
         "height": 192,
         "width": 96
       }
-    ],
-    "icon": ""
+    ]
   },
   "Troupple Pond": {
+    "alts": ["Pridemoor Keep"],
     "Top": {
       "value": 600,
       "comparison": "average"
@@ -574,13 +525,6 @@
       {
         "height": 96,
         "width": 186
-      }
-    ],
-    "icon": "",
-    "alts": [
-      {
-        "name": "Pridemoor Keep",
-        "icon": ""
       }
     ]
   }
