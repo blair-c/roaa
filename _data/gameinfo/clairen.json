@@ -1,0 +1,36 @@
+{
+  "Weight": {
+    "KB Adjustment": "1.00",
+    "Gravity Accel": "0.50",
+    "Hitstun Gravity Accel": "0.50",
+    "Air Friction": "0.02",
+    "Max Fall Speed": "10 px/frame",
+    "Fast Fall Speed": "13 px/frame"
+  },
+  "Grounded Movement": {
+    "Ground Friction": "0.40",
+    "Inital Dash Speed": "7.5 px/frame",
+    "Initial Dash Time": "16 frames",
+    "Run Speed": "6.5 px/frame",
+    "Run Stop Time": "6 frames",
+    "Run Turn Time": "10 frames",
+    "Run Turn Accel": "1.0",
+    "Walk Speed": "4.25 px/frame",
+    "Walk Accel": "0.25",
+    "Waveland Time": "8 frames",
+    "Waveland Friction": "0.13"
+  },
+  "Aerial Movement": {
+    "Max Air Speed": "4 px/frame",
+    "Jump Speed": "10.99 px/frame",
+    "Double Jump Speed": "10 px/frame",
+    "Short Hop Speed": "6 px/frame",
+    "Max Jump Horizontal Speed": "6 px/frame",
+    "Walljump Vertical Speed": "9 px/frame",
+    "Walljump Horizontal Speed": "5 px/frame",
+    "Airdodge Speed": "7.5 px/frame",
+    "Prat Fall Accel": "0.6",
+    "Prat Land Time": "10 frames",
+    "Land Time": "4 frames"
+  }
+}
