@@ -1,0 +1,23 @@
+{
+  "Upair": {
+    "": {
+      "Startup": "8",
+      "Active": "9-10, 10-11, 12-14",
+      "Endlag (Hit)": "14",
+      "Endlag (Whiff)": "21",
+      "Landing Lag (Hit)": "4",
+      "Landing Lag (Whiff)": "6",
+      "FAF": "36",
+      "Damage": "7%, 5%, 5%",
+      "Angle": "75°, 75°, 105°",
+      "Base Knockback": "8, 6, 8",
+      "Knockback Scaling": "40, 40, 35",
+      "Priority": "1, 1, 1",
+      "Hitstun Modifier": "0.9x, 0.9x, 0.9x",
+      "Base Hitpause": "7, 6, 6",
+      "Hitpause Scaling": "10, 10, 10",
+      "Angle Flipper": "6, 6, 6",
+      "Kills Projectiles": true
+    }
+  }
+}
