@@ -526,7 +526,7 @@
     }
   },
   "Side Special": {
-    "Non-tipper": {
+    "Sourspot": {
       "Startup": "23",
       "Active": "24-26",
       "Intangible": "9-24",
@@ -543,7 +543,7 @@
       "Kills Projectiles": true,
       "Notes": "Forward special is cancellable on whiff from f46 if it starts in the air (more than 32px above the ground) and endlag starts on the ground, cancelling the last 7 frames of endlag. Non-tipper Forward is also cancellable on hit during the last 15 frames of endlag. If on the ground when cancelling you can hold back and jump to make Clairen turnaround on the first frame of jump-squat."
     },
-    "Tipper": {
+    "Sweetspot": {
       "Damage": "13%",
       "Angle": "90°",
       "Angle Flipper": "6",
@@ -553,6 +553,7 @@
       "Base Hitpause": "16",
       "Hitpause Scaling": "80",
       "Tipper Stun": "32",
+      "Priority": "Sweetspot > Sourspot",
       "Kills Projectiles": true
     }
   },
