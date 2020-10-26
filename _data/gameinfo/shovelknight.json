@@ -5,41 +5,35 @@
       "Active": "10-13 [14-17, 18-21, 22-25, 26-29]",
       "Damage": "2%",
       "Angle": "70°",
+      "Angle Flipper": "4",
       "Base Knockback": "4",
       "Knockback Scaling": "0",
-      "Priority": "6",
       "Hitstun Modifier": "1x",
       "Base Hitpause": "4",
       "Hitpause Scaling": "0",
-      "Angle Flipper": "4",
+      "Priority": "Non-tip > Tip",
       "Kills Projectiles": true,
       "Notes": "Up-air will loop hit 1 up to 4 times while holding attack. This allows you to delay the final hit, connect hit 1 multiple times and will lift Shovel Knight into the air."
     },
-    "Hit 1 (Tip)": {
-      "Priority": "2"
-    },
     "Finisher": {
+      "Unique KB": ["Non-tip", "Tip"],
       "Active": "14-16 / 18-20 / 22-24 / 26-28 / 30-32",
       "Endlag (Hit)": "15",
       "Endlag (Whiff)": "21",
       "Landing Lag (Hit)": "4",
       "Landing Lag (Whiff)": "6",
-      "FAF": "38 [42, 46, 50, 54]",
+      "FAF (Whiff)": "38 [42, 46, 50, 54]",
       "Damage": "3%",
       "Angle": "90°",
+      "Angle Flipper": "0",
       "Base Knockback": "6",
-      "Knockback Scaling": "70",
-      "Priority": "6",
+      "Knockback Scaling": "70, 55 (Tip)",
       "Hitstun Modifier": "1x",
       "Base Hitpause": "7",
       "Hitpause Scaling": "80",
-      "Angle Flipper": "0",
+      "Priority": "Non-tip > Tip",
       "Kills Projectiles": true,
       "Notes": "On releasing attack, the final hit of up-air will replace the next attack in hit 1's loop. The dagger hilt has higher knockback than the tip."
-    },
-    "Finisher (Tip)": {
-      "Knockback Scaling": "55",
-      "Priority": "2"
     }
   }
 }
