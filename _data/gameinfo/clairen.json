@@ -527,9 +527,9 @@
   },
   "Side Special": {
     "Sourspot": {
-      "Startup": "23",
-      "Active": "24-26",
+      "Startup": "8 / 23",
       "Intangible": "9-24",
+      "Active": "24-26",
       "Endlag": "26",
       "FAF": "53",
       "Damage": "8%",
@@ -607,8 +607,8 @@
   "Down Special": {
     "Counter": {
       "Startup": "6",
-      "Active": "7-23",
       "Intangible": "7-23",
+      "Active": "7-23",
       "Endlag": "29",
       "FAF": "53",
       "Cooldown": "20 on whiff, 600 on counter",
@@ -617,8 +617,8 @@
     "Plasma Field": {
       "Unique KB": ["Hits 1-2", "Hit 3"],
       "Startup": "4 (From activation)",
-      "Active": "5-8, 9-12, 13-16",
       "Intangible": "1-16",
+      "Active": "5-8, 9-12, 13-16",
       "Invulnerable": "17-33",
       "Endlag": "6",
       "FAF": "23",
