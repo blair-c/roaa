@@ -1,0 +1,276 @@
+{
+  "Weight": {
+    "KB Adjustment": "1.10",
+    "Gravity Accel": "0.30",
+    "Hitstun Gravity Accel": "0.45",
+    "Air Friction": "0.04",
+    "Max Fall Speed": "8 px/frame",
+    "Fast Fall Speed": "12 px/frame"
+  },
+  "Grounded Movement": {
+    "Ground Friction": "0.63",
+    "Inital Dash Speed": "4 px/frame",
+    "Initial Dash Time": "8 frames",
+    "Run Speed": "6.25 px/frame",
+    "Run Stop Time": "4 frames",
+    "Run Turn Time": "10 frames",
+    "Run Turn Accel": "1.5",
+    "Walk Speed": "3 px/frame",
+    "Walk Accel": "0.20",
+    "Waveland Time": "6 frames",
+    "Waveland Friction": "0.00"
+  },
+  "Aerial Movement": {
+    "Max Air Speed": "6 px/frame",
+    "Jump Speed": "7.6 px/frame",
+    "Double Jump Speed": "-1 px/frame",
+    "Short Hop Speed": "4.5 px/frame",
+    "Max Jump Horizontal Speed": "8 px/frame",
+    "Walljump Vertical Speed": "7 px/frame",
+    "Walljump Horizontal Speed": "6 px/frame",
+    "Airdodge Speed": "8 px/frame",
+    "Prat Fall Accel": "0.4",
+    "Prat Land Time": "16 frames",
+    "Land Time": "4 frames"
+  },
+  "Hurtbox": {
+    "Idle": {
+      "Height": "59px",
+      "Width": "42px"
+    },
+    "Hitstun": {
+      "Height": "59px",
+      "Width": "42px"
+    },
+    "Crouch": {
+      "Height": "36px",
+      "Width": "42px"
+    }
+  },
+  "Jab": {
+    "Jab 1": {
+      "Startup": "3",
+      "Active": "4-6 [24-26, 44-46...]",
+      "Endlag": "15 (cancellable into jab2 6-7, jab1 8-15, tilts 6-15)",
+      "FAF": "22",
+      "Damage": "3%",
+      "Angle": "70°",
+      "Angle Flipper": "6",
+      "Base Knockback": "4",
+      "Knockback Scaling": "0",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "4",
+      "Hitpause Scaling": "0",
+      "Kills Projectiles": true
+    },
+    "Jab 2": {
+      "Startup": "0 (attack must be held f13)",
+      "Active": "14-16 [34-36, 54-56...]",
+      "Endlag": "15 (cancellable into jab1/tilts 6-15)",
+      "FAF": "32",
+      "Damage": "4%",
+      "Angle": "361°",
+      "Angle Flipper": "6",
+      "Base Knockback": "4",
+      "Knockback Scaling": "0",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "5",
+      "Hitpause Scaling": "0",
+      "Kills Projectiles": true,
+      "Notes": "If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
+    }
+  },
+  "Dash Attack": {
+    "": {
+      "Unique KB": ["Hit 1", "Hit 2"],
+      "Startup": "6",
+      "Active": "7-9, 13-15",
+      "Endlag (Hit)": "18",
+      "Endlag (Whiff)": "27",
+      "FAF (Whiff)": "43",
+      "Damage": "3%, 8%",
+      "Angle": "361°",
+      "Angle Flipper": "0, 5",
+      "Base Knockback": "6",
+      "Knockback Scaling": "40",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "3, 5",
+      "Hitpause Scaling": "0",
+      "Kills Projectiles": true
+    }
+  },
+  "Forward Tilt": {
+    "Hit 1": {
+      "Startup": "7",
+      "Active": "8-11 (cancellable into ftilt2 15-20)",
+      "Endlag (Hit)": "12",
+      "Endlag (Whiff)": "18",
+      "FAF (Whiff)": "30",
+      "Damage": "6%",
+      "Angle": "70°",
+      "Angle Flipper": "0",
+      "Base Knockback": "7",
+      "Knockback Scaling": "30",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "8",
+      "Hitpause Scaling": "20",
+      "Kills Projectiles": true
+    },
+    "Hit 2 (Projectile)": {
+      "Startup": "12 (27)",
+      "Active": "13-14 (28-29)",
+      "Endlag (Hit)": "27",
+      "Endlag (Whiff)": "28 (whiff both hits), 22 (whiff only hit 2)",
+      "FAF (Whiff)": "43 (58) (whiff both hits)",
+      "Damage": "4%",
+      "Angle": "85°",
+      "Angle Flipper": "0",
+      "Base Knockback": "9",
+      "Knockback Scaling": "25",
+      "Hitstun Modifier": "0.5x",
+      "Base Hitpause": "6",
+      "Hitpause Scaling": "0",
+      "Force Flinch": "3",
+      "Kills Projectiles": true
+    }
+  },
+  "Up Tilt": {
+    "": {
+      "Unique KB": ["Early", "Late"],
+      "Startup": "10",
+      "Active": "11-12, 13-17",
+      "Endlag (Hit)": "9",
+      "Endlag (Whiff)": "14",
+      "FAF (Whiff)": "32",
+      "Damage": "10%, 80%",
+      "Angle": "80°, 90°",
+      "Angle Flipper": "6",
+      "Base Knockback": "8, 6",
+      "Knockback Scaling": "70, 35",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "8, 6",
+      "Hitpause Scaling": "40, 20",
+      "Priority": "(Early) Above > Center",
+      "Kills Projectiles": true
+    }
+  },
+  "Down Tilt": {
+    "": {
+      "Startup": "5",
+      "Active": "6-11",
+      "Endlag (Hit)": "9",
+      "Endlag (Whiff)": "14",
+      "FAF (Whiff)": "26",
+      "Damage": "7%",
+      "Angle": "30°",
+      "Angle Flipper": "0",
+      "Base Knockback": "7",
+      "Knockback Scaling": "45",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "7",
+      "Hitpause Scaling": "60",
+      "Kills Projectiles": true
+    }
+  },
+  "Forward Strong": {
+    "Hits 1-4": {
+      "Startup": "11",
+      "Active": "12-13, 14-15, 16-17, 18-19",
+      "Damage": "2%",
+      "Angle": "361°",
+      "Angle Flipper": "4",
+      "Base Knockback": "2",
+      "Knockback Scaling": "0",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "2",
+      "Hitpause Scaling": "0",
+      "Untechable": true,
+      "Kills Projectiles": true
+    },
+    "Hit 5": {
+      "Active": "20-22",
+      "Endlag (Hit)": "15 (special cancellable 8-15)",
+      "Endlag (Whiff)": "23",
+      "FAF (Whiff)": "46",
+      "Damage": "8%",
+      "Angle": "361°",
+      "Angle Flipper": "0",
+      "Base Knockback": "7",
+      "Knockback Scaling": "80",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "7",
+      "Hitpause Scaling": "80",
+      "Untechable": false,
+      "Kills Projectiles": true
+    }
+  },
+  "Up Strong": {
+    "Hits 1-2": {
+      "Startup": "15",
+      "Active": "16-17, 19-20",
+      "Damage": "3%",
+      "Angle": "80°",
+      "Angle Flipper": "9",
+      "Base Knockback": "3",
+      "Knockback Scaling": "0",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "3",
+      "Hitpause Scaling": "0",
+      "Untechable": true,
+      "Kills Projectiles": true
+    },
+    "Hit 5": {
+      "Active": "22-24",
+      "Endlag (Hit)": "17 (special cancellable 8-17)",
+      "Endlag (Whiff)": "26",
+      "FAF (Whiff)": "51",
+      "Damage": "8%",
+      "Angle": "90°",
+      "Angle Flipper": "6",
+      "Base Knockback": "7",
+      "Knockback Scaling": "120",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "7",
+      "Hitpause Scaling": "80",
+      "Untechable": false,
+      "Kills Projectiles": true
+    }
+  },
+  "Down Strong": {
+    "Hits 1/3": {
+      "Startup": "8",
+      "Active": "9-10, 17-18",
+      "Damage": "2%",
+      "Angle": "0°",
+      "Angle Flipper": "0",
+      "Base Knockback": "6",
+      "Knockback Scaling": "0",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "2",
+      "Hitpause Scaling": "0",
+      "Untechable": true,
+      "Kills Projectiles": true
+    },
+    "Hits 2/4": {
+      "Active": "13-14, 21-22",
+      "Angle": "180°",
+      "Untechable": true
+    },
+    "Hit 5": {
+      "Active": "26-29",
+      "Endlag (Hit)": "12 (special cancellable 8-12)",
+      "Endlag (Whiff)": "18",
+      "FAF (Whiff)": "48",
+      "Damage": "5%",
+      "Angle": "35°",
+      "Angle Flipper": "6",
+      "Base Knockback": "7",
+      "Knockback Scaling": "80",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "8",
+      "Hitpause Scaling": "60",
+      "Untechable": false,
+      "Kills Projectiles": true
+    }
+  }
+}
