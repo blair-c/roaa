@@ -1,0 +1,49 @@
+{
+  "Weight": {
+    "KB Adjustment": "1.00",
+    "Gravity Accel": "0.50",
+    "Hitstun Gravity Accel": "0.50",
+    "Air Friction": "0.07",
+    "Max Fall Speed": "9 px/frame",
+    "Fast Fall Speed": "12 px/frame"
+  },
+  "Grounded Movement": {
+    "Ground Friction": "0.40",
+    "Inital Dash Speed": "7 px/frame",
+    "Initial Dash Time": "12 frames",
+    "Run Speed": "7 px/frame",
+    "Run Stop Time": "4 frames",
+    "Run Turn Time": "12 frames",
+    "Run Turn Accel": "1.50",
+    "Walk Speed": "3 px/frame",
+    "Walk Accel": "0.20",
+    "Waveland Time": "12 frames",
+    "Waveland Friction": "0.04"
+  },
+  "Aerial Movement": {
+    "Max Air Speed": "4 px/frame",
+    "Jump Speed": "9.5 px/frame",
+    "Double Jump Speed": "11.5 px/frame",
+    "Short Hop Speed": "6 px/frame",
+    "Max Jump Horizontal Speed": "7 px/frame",
+    "Walljump Vertical Speed": "8 px/frame",
+    "Walljump Horizontal Speed": "7 px/frame",
+    "Airdodge Speed": "7.5 px/frame",
+    "Prat Fall Accel": "0.80",
+    "Prat Land Time": "9 frames",
+    "Land Time": "4 frames"
+  },
+  "Hurtbox": {
+    "Idle": {
+      "Height": "44px",
+      "Width": "61px"
+    },
+    "Hitstun": {
+      "Height": "56px",
+      "Width": "47px"
+    },
+    "Crouch": {
+      "Height": "27px",
+      "Width": "67px"
+    }
+  },
