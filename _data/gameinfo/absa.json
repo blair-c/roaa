@@ -272,5 +272,293 @@
       "Untechable": false,
       "Kills Projectiles": true
     }
+  },
+  "Neutral Air": {
+    "": {
+      "Unique KB": ["Hits 1-4", "Hit 5"],
+      "Startup": "8",
+      "Active": "9-10, 13-14, 17-18, 21-22, 29-30",
+      "Endlag (Hit)": "12",
+      "Endlag (Whiff)": "18",
+      "Landing Lag (Hit)": "4",
+      "Landing Lag (Whiff)": "6",
+      "FAF (Whiff)": "49",
+      "Damage": "2%, 5%",
+      "Angle": "90°, 70°",
+      "Angle Flipper": "2, 3",
+      "Base Knockback": "4, 7",
+      "Knockback Scaling": "0, 30",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "5, 7",
+      "Hitpause Scaling": "0, 20",
+      "Kills Projectiles": true
+    }
+  },
+  "Forward Air": {
+    "Sweetspot": {
+      "Startup": "8",
+      "Active": "9-10",
+      "Damage": "12%",
+      "Angle": "361°",
+      "Angle Flipper": "0",
+      "Base Knockback": "8",
+      "Knockback Scaling": "100",
+      "Hitstun Modifier": "0.9x",
+      "Base Hitpause": "12",
+      "Hitpause Scaling": "100",
+      "Kills Projectiles": true
+    },
+    "Sweetspot (Cloud Kick)": {
+      "Unique KB": ["Early", "Last 3 active frames"],
+      "Active": "3 (+9 hitpause)",
+      "Base Knockback": "8, 6.5",
+      "Notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties, until the final 3 frames of hitpause."
+    },
+    "Sourspot": {
+      "Active": "10-12",
+      "Endlag (Hit)": "13",
+      "Endlag (Whiff)": "20",
+      "Landing Lag (Hit)": "4",
+      "Landing Lag (Whiff)": "6",
+      "FAF (Whiff)": "33",
+      "Damage": "6%",
+      "Angle": "361°",
+      "Angle Flipper": "6",
+      "Base Knockback": "6",
+      "Knockback Scaling": "40",
+      "Hitstun Modifier": "0.85x",
+      "Base Hitpause": "5",
+      "Hitpause Scaling": "0",
+      "Kills Projectiles": true
+    }
+  },
+  "Back Air": {
+    "Sweetspot": {
+      "Startup": "12",
+      "Active": "13-14",
+      "Damage": "12%",
+      "Angle": "32.5°",
+      "Angle Flipper": "0",
+      "Base Knockback": "6",
+      "Knockback Scaling": "100",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "12",
+      "Hitpause Scaling": "100",
+      "Kills Projectiles": true
+    },
+    "Sweetspot (Cloud Kick)": {
+      "Unique KB": ["Early", "Last 3 active frames"],
+      "Active": "3 (+9 hitpause)",
+      "Base Knockback": "8, 4.5",
+      "Notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties, until the final 3 frames of hitpause."
+    },
+    "Sourspot": {
+      "Active": "14-16",
+      "Endlag (Hit)": "13",
+      "Endlag (Whiff)": "20",
+      "Landing Lag (Hit)": "4",
+      "Landing Lag (Whiff)": "6",
+      "FAF (Whiff)": "37",
+      "Damage": "6%",
+      "Angle": "361°",
+      "Angle Flipper": "6",
+      "Base Knockback": "6",
+      "Knockback Scaling": "40",
+      "Hitstun Modifier": "0.85x",
+      "Base Hitpause": "5",
+      "Hitpause Scaling": "0",
+      "Kills Projectiles": true
+    }
+  },
+  "Up Air": {
+    "": {
+      "Startup": "16",
+      "Active": "17-20",
+      "Endlag (Hit)": "22",
+      "Endlag (Whiff)": "33",
+      "Landing Lag (Hit)": "8",
+      "Landing Lag (Whiff)": "12",
+      "FAF (Whiff)": "54",
+      "Damage": "12%",
+      "Angle": "90°",
+      "Angle Flipper": "6",
+      "Base Knockback": "7",
+      "Knockback Scaling": "120",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "10",
+      "Hitpause Scaling": "80",
+      "Kills Projectiles": true
+    }
+  },
+  "Down Air": {
+    "Sweetspot": {
+      "Startup": "8",
+      "Active": "9-10",
+      "Damage": "12%",
+      "Angle": "270°",
+      "Angle Flipper": "0",
+      "Base Knockback": "7",
+      "Knockback Scaling": "100",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "12",
+      "Hitpause Scaling": "100",
+      "Kills Projectiles": true
+    },
+    "Sweetspot (Cloud Kick)": {
+      "Unique KB": ["Early", "Last 3 active frames"],
+      "Active": "3 (+9 hitpause)",
+      "Base Knockback": "8, 5.5",
+      "Notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties, until the final 3 frames of hitpause."
+    },
+    "Sourspot": {
+      "Active": "10-12",
+      "Endlag (Hit)": "13",
+      "Endlag (Whiff)": "20",
+      "Landing Lag (Hit)": "4",
+      "Landing Lag (Whiff)": "6",
+      "FAF (Whiff)": "33",
+      "Damage": "6%",
+      "Angle": "60°",
+      "Angle Flipper": "6",
+      "Base Knockback": "6",
+      "Knockback Scaling": "60",
+      "Hitstun Modifier": "0.85x",
+      "Base Hitpause": "5",
+      "Hitpause Scaling": "0",
+      "Kills Projectiles": true
+    }
+  },
+  "Neutral Special": {
+    "Cloud Hop": {
+      "Startup": "15",
+      "Active": "Cloud created frame 16",
+      "FAF": "17",
+      "Cooldown": "10 (Cloud Pop/Thunder Line)",
+      "Notes": "Interrupting Absa by hitting her during the cloud hop startup will prevent the cloud from being created."
+    },
+    "Cloud Pop": {
+      "Startup": "3 (initial), 4 (cloud startup)",
+      "Active": "5-8 (8-11)",
+      "Endlag": "9 (from cloud release)",
+      "FAF": "13",
+      "Damage": "4%",
+      "Angle": "361°",
+      "Angle Flipper": "3",
+      "Base Knockback": "6",
+      "Knockback Scaling": "30",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "8",
+      "Hitpause Scaling": "0",
+      "Cooldown": "30 (Cloud Hop)",
+      "Extended Parry Stun": true,
+      "Kills Projectiles": true,
+      "Notes": "Interrupting Absa by hitting her during the first 3 frames of startup before the cloud startup begins will prevent the hitbox from becoming active, however the cloud will still remain."
+    },
+    "Thunder Line": {
+      "Startup": "28",
+      "Active": "29-37",
+      "Endlag": "28",
+      "FAF": "58",
+      "Damage": "12%",
+      "Angle": "90°",
+      "Angle Flipper": "0",
+      "Base Knockback": "9-6 (Linear)",
+      "Knockback Scaling": "100",
+      "Hitstun Modifier": "0.7x",
+      "Base Hitpause": "8",
+      "Hitpause Scaling": "0",
+      "Cooldown": "30 (Cloud Hop)",
+      "Hit Lockout": "10",
+      "Extended Parry Stun": true,
+      "Kills Projectiles": true,
+      "Notes": "Releasing the charge at any time before frame 15 will cause Absa to transition immediately into cloud burst, with the cloud exploding 5 frames later. Interrupting Absa by hitting her before the thunder bolt becomes active will prevent both hitboxes from becoming active, however the cloud will still remain. Hitting Absa on the first active frame of the thunder bolt (f29) will cause the bolt to be active for only 1 frame, however the cloud will still explode at its regular time."
+    },
+    "Thunder Line (Cloud)": {
+      "Active": "34-37",
+      "Priority": "Cloud > Thunder Bolt",
+      "Extended Parry Stun": true,
+      "Kills Projectiles": true
+    }
+  },
+  "Side Special": {
+    "": {
+      "Startup": "19 (initial), 8 (cloud startup)",
+      "Active": "28-30 min, 78-80 max",
+      "Endlag": "16",
+      "FAF": "36-71",
+      "Damage": "5%",
+      "Angle": "361°",
+      "Angle Flipper": "3",
+      "Base Knockback": "6",
+      "Knockback Scaling": "30",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "6",
+      "Hitpause Scaling": "60",
+      "Cooldown": "24 (side special), 4 (cloud pop/thunder line)",
+      "Extended Parry Stun": true,
+      "Kills Projectiles": true,
+      "Notes": "Interrupting Absa by hitting her while she is in forward special or during the clouds 8 frames of startup will prevent the hitbox from becoming active, however the cloud will still remain. Cloud will automatically be placed and begin to detonate upon contact of either a wall or solid object, such as Kragg/Shovel Knight rock or Kragg pillar. The endlag window for Absa's forward special will always begin on frame 54 if you are still controlling the cloud, however you are still able to control and place the cloud until frame 69, after which the cloud locks into place and begins its 8 frames of startup."
+    }
+  },
+  "Up Special": {
+    "Hit 1": {
+      "Startup": "12",
+      "Active": "13-20 (walljump cancellable 27-)",
+      "Endlag": "21 (grounded/airborne)",
+      "Endlag (Hit)": "6 (cancel)",
+      "Endlage (Whiff)": "10 (cancel)",
+      "FAF": "42 (grounded/airborne), 27 (cancel hit), 31 (cancel whiff)",
+      "Damage": "4%",
+      "Angle": "361°",
+      "Angle Flipper": "6",
+      "Base Knockback": "5",
+      "Knockback Scaling": "15",
+      "Hitstun Modifier": "1x",
+      "Base Hitpause": "4",
+      "Hitpause Scaling": "0",
+      "Force Flinch": "1",
+      "Hit Lockout": "4",
+      "Kills Projectiles": false,
+      "Notes": "When travelling from ground to air, Absa will cancel part of the endlag and be actionable without going into prat-fall. This also applies when touching the ground with the first part of up special before becoming airborne again. Can shift the up-special angle downwards slightly while travelling horizontally in the air by inputting fast-fall. Snaps to the ledge within 16px while moving horizontally."
+    },
+    "Hit 2": {
+      "Active": "27-34 (walljump cancellable 35-, fastfall 56-)",
+      "Endlag": "20 grounded, 28 airborne)",
+      "Endlag (Hit)": "8 (cancel)",
+      "Endlage (Whiff)": "12 (cancel)",
+      "FAF": "63 (grounded/airborne), 43 (cancel hit), 47 (cancel whiff)",
+      "Base Knockback": "4",
+      "Kills Projectiles": false
+    }
+  },
+  "Down Special": {
+    "Cloud Bomb": {
+      "Startup": "23",
+      "Active": "114-118 (cloud primed f24, timer starts f33)",
+      "Endlag": "8",
+      "FAF": "33",
+      "Damage": "11%",
+      "Angle": "90°",
+      "Angle Flipper": "8",
+      "Base Knockback": "5",
+      "Knockback Scaling": "150",
+      "Hitstun Modifier": "0.9x",
+      "Base Hitpause": "8",
+      "Hitpause Scaling": "60",
+      "Cooldown": "40 (Cloud Creation), 12 (Cloud Bomb)",
+      "Hit Lockout": "6",
+      "Extended Parry Stun": true,
+      "Kills Projectiles": true,
+      "Notes": "Interrupting Absa by hitting her before the cloud is primed will prevent the hitbox from becoming active, however the cloud will still remain. If a cloud does not exist and Absa is interuppted before frame 24, one will not be created. Starting the timer on down-special begins a 40 frame cooldown on both cloud hop and forward-special, preventing a new cloud from being created during the initial charge time of the cloud bomb. Once the cloud bomb has finished detonating (after the last active frame) you are able to use it again after a 12 frame cooldown."
+    },
+    "Charged to Absa": {
+      "Startup": "39",
+      "Active": "148-152 (charged to Absa f40, timer starts f67)",
+      "Endlag": "27",
+      "FAF": "67",
+      "Cooldown": "12 (Cloud Bomb)",
+      "Kills Projectiles": true,
+      "Notes": "Once the cloud bomb has finished detonating (after the last active frame) you are able to use it again after a 12 frame cooldown."
+    }
   }
 }
