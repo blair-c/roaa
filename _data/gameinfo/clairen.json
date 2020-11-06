@@ -632,6 +632,12 @@
       "Hitpause Scaling": "0, 20",
       "Kills Projectiles": true,
       "Notes": "Plasma field lifetime is 600 frames. Plasma Field does not become active if any of the hitboxes during its creation are parried. The field will take 7 frames to disappear once 600 frames have passed, rapidly shrinking towards the centre of the field while still active. Destroys all enemy projectiles that enter or are spawned within the field. If Clairen parries a projectile to take ownership of it, upon reflection the projectile can freely enter the field without being removed and stays active within the field. Please see extended notes listed in the separate google doc for full details on all interactions."
+    },
+    "Link": {
+      "title": "Clairen Plasma Field Interactions",
+      "description": "General projectile interactions with Clairen's Plasma Field",
+      "preview": "https://i.imgur.com/5NVvUtj.png",
+      "url": "https://docs.google.com/document/d/12I3L4w27sHRZc139FJYtZkkAbjE6CcdpfHAFzfsKkQM"
     }
   }
 }
