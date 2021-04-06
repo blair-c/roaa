@@ -96,7 +96,7 @@
     }
   },
   "doubleJump": {
-    "amount": 0,
+    "amount": 1,
     "speed": 1,
     "acceleration": -1.4
   },
