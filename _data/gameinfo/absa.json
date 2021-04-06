@@ -90,7 +90,7 @@
   "jump": {
     "startTime": 5,
     "speed": {
-      "normal": 7.6,
+      "fullHop": 7.6,
       "shortHop": 4.5,
       "maxHorizontal": 8
     }
