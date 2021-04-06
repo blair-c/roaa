@@ -139,15 +139,17 @@
     }
   },
   "hurtbox": {
-    "height": {
-      "idle": 59,
-      "crouch": 36,
-      "hitstun": 59
+    "idle": {
+      "height": 59,
+      "width": 42
     },
-    "width": {
-      "idle": 42,
-      "crouch": 42,
-      "hitstun": 42
+    "crouch": {
+      "height": 36,
+      "width": 42
+    },
+    "hitstun": {
+      "height": 59,
+      "width": 42
     }
   },
   "jab": {
