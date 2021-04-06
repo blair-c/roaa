@@ -349,16 +349,14 @@
       }
     },
     "special": {
-      "cloud": {
-        "hop": {
-          "startup": 15,
-          "FAF": 17,
-          "cooldown": 10,
-          "notes": "Interrupting Absa by hitting her during the cloud hop startup will prevent the cloud from being created."
-        },
-        "burst": {
-          
-        }
+      "cloud hop": {
+        "startup": 15,
+        "FAF": 17,
+        "cooldown": 10,
+        "notes": "Interrupting Absa by hitting her during the cloud hop startup will prevent the cloud from being created."
+      },
+      "cloud burst": {
+        
       }
     }
   },
