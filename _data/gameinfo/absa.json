@@ -567,7 +567,7 @@
         "killsProjectiles": true,
         "notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties. Cloud explosion is active for 3 frames, which is extended to 12 frames due to 9 frames of hitpause. The last 3 frames of hitpause will decay the base knockback by 1.5, which then remains at 6.5 BKB until the move is no longer active."
       },
-      "sour": {
+      "sourspot": {
         "startup": 8,
         "active": {
           "from": 10,
@@ -627,7 +627,7 @@
         "angleFlipper": 0,
         "killsProjectiles": true
       },
-      "sour": {
+      "sourspot": {
         "startup": 13,
         "active": {
           "from": 14,
@@ -984,7 +984,7 @@
         "angleFlipper": 0,
         "killsProjectiles": true
       },
-      "sour": {
+      "sourspot": {
         "startup": 9,
         "active": {
           "from": 10,
