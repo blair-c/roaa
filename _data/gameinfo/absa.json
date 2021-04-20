@@ -349,15 +349,46 @@
       }
     },
     "special": {
-      "cloud hop": {
+      "cloudHop": {
         "startup": 15,
         "FAF": 17,
         "cooldown": 10,
         "notes": "Interrupting Absa by hitting her during the cloud hop startup will prevent the cloud from being created."
       },
-      "cloud burst": {
-        
-      }
+      "cloudBurst": {
+        "startup": {
+          "initial": 3,
+          "cloud": 4
+        },
+        "active": {
+          "absolute": {
+            "from": 5,
+            "to": 8
+          },
+          "relative": {
+            "from": 8,
+            "to": 11
+          },
+          "frames": 3
+        },
+        "endlag": 9,
+        "FAF": 13,
+        "damage": 4,
+        "angle": 361,
+        "knockback": {
+          "base": 6,
+          "scaling": 30
+        },
+        "priority": 4,
+        "hitpause": {
+          "base": 8,
+          "scaling": 0
+        },
+        "angleFlipper": 3,
+        "killsProjectiles": true,
+        "extendedParryStun": true,
+        "notes": "Interrupting Absa by hitting her during the first 3 frames of startup before the cloud startup begins will prevent the hitbox from becoming active, however the cloud will still remain."
+      },
     }
   },
   "forward": {
