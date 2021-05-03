@@ -38,7 +38,9 @@
           "scaling": 0
         },
         "angleFlipper": 0,
-        "killsProjectile": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit2": {
         "active": {
@@ -58,7 +60,9 @@
           "base": 0,
           "scaling": 0
         },
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     }
   },
@@ -177,7 +181,9 @@
         "scaling": 0
       },
       "angleFlipper": 6,
+      "untechable": false,
       "killsProjectiles": true,
+      "extendedParryStun": false,
       "notes": "If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0. If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
     },
     "hit2": {
@@ -205,7 +211,9 @@
         "scaling": 0
       },
       "angleFlipper": 6,
+      "untechable": false,
       "killsProjectiles": true,
+      "extendedParryStun": false,
       "notes": "Jab 2 loops back into Jab 1. If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0. If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
     }
   },
@@ -240,7 +248,9 @@
           "scaling": 0
         },
         "angleFlipper": 2,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit2": {
         "active": {
@@ -261,7 +271,9 @@
           "scaling": 0
         },
         "angleFlipper": 2,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit3": {
         "active": {
@@ -282,7 +294,9 @@
           "scaling": 0
         },
         "angleFlipper": 2,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit4": {
         "active": {
@@ -303,7 +317,9 @@
           "scaling": 0
         },
         "angleFlipper": 2,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit5": {
         "active": {
@@ -324,7 +340,9 @@
           "scaling": 20
         },
         "angleFlipper": 3,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     },
     "special": {
@@ -368,6 +386,7 @@
             "scaling": 0
           },
           "angleFlipper": 3,
+          "untechable": false,
           "killsProjectiles": true,
           "extendedParryStun": true,
           "notes": "Interrupting Absa by hitting her during the first 3 frames of startup before the cloud startup begins will prevent the hitbox from becoming active, however the cloud will still remain."
@@ -401,8 +420,9 @@
           "base": 8,
           "scaling": 0
         },
-        "hitLockout": 10,
         "angleFlipper": 0,
+        "hitLockout": 10,
+        "untechable": false,
         "killsProjectiles": true,
         "extendedParryStun": true,
         "notes": "Releasing the charge at any time before frame 15 will cause Absa to transition immediately into cloud burst, with the cloud exploding 5 frames later. Interrupting Absa by hitting her before the thunder bolt becomes active will prevent both hitboxes from becoming active, however the cloud will still remain. Hitting Absa on the first active frame of the thunder bolt (f29) will cause the bolt to be active for only 1 frame, however the cloud will still explode at its regular time.",
@@ -431,8 +451,9 @@
             "base": 8,
             "scaling": 0
           },
-          "hitLockout": 10,
           "angleFlipper": 0,
+          "hitLockout": 10,
+          "untechable": false,
           "killsProjectiles": true,
           "extendedParryStun": true
         }
@@ -466,7 +487,9 @@
           "scaling": 20
         },
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit2": {
         "startup": {
@@ -509,7 +532,9 @@
         },
         "forceFlinch": 3,
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     },
     "strong": {
@@ -525,7 +550,6 @@
           "to": 13,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 361,
         "knockback": {
@@ -539,7 +563,9 @@
           "scaling": 0
         },
         "angleFlipper": 4,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit2": {
         "active": {
@@ -547,7 +573,6 @@
           "to": 15,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 361,
         "knockback": {
@@ -561,7 +586,9 @@
           "scaling": 0
         },
         "angleFlipper": 4,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit3": {
         "active": {
@@ -569,7 +596,6 @@
           "to": 17,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 361,
         "knockback": {
@@ -583,7 +609,9 @@
           "scaling": 0
         },
         "angleFlipper": 4,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit4": {
         "active": {
@@ -591,7 +619,6 @@
           "to": 19,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 361,
         "knockback": {
@@ -605,7 +632,9 @@
           "scaling": 0
         },
         "angleFlipper": 4,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit5": {
         "active": {
@@ -626,7 +655,9 @@
           "scaling": 80
         },
         "angleFlipper": 0,
+        "untechable": false,
         "killsProjectiles": true,
+        "extendedParryStun": false,
         "notes": "The last 8 frames of forward strong endlag can be cancelled into any special move on hit"
       }
     },
@@ -660,7 +691,9 @@
           "scaling": 100
         },
         "angleFlipper": 0,
+        "untechable": false,
         "killsProjectiles": true,
+        "extendedParryStun": false,
         "notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties. Cloud explosion is active for 3 frames, which is extended to 12 frames due to 9 frames of hitpause. The last 3 frames of hitpause will decay the base knockback by 1.5, which then remains at 6.5 BKB until the move is no longer active."
       },
       "sourspot": {
@@ -682,7 +715,9 @@
           "scaling": 0
         },
         "angleFlipper": 6,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     },
     "special": {
@@ -723,6 +758,7 @@
         "scaling": 60
       },
       "angleFlipper": 3,
+      "untechable": false,
       "killsProjectiles": true,
       "extendedParryStun": true,
       "notes": "Interrupting Absa by hitting her while she is in forward special or during the clouds 8 frames of startup will prevent the hitbox from becoming active, however the cloud will still remain. Cloud will automatically be placed and begin to detonate upon contact of either a wall or solid object, such as Kragg/Shovel Knight rock or Kragg pillar. The endlag window for Absa's forward special will always begin on frame 54 if you are still controlling the cloud, however you are still able to control and place the cloud until frame 69, after which the cloud locks into place and begins its 8 frames of startup."
@@ -759,7 +795,9 @@
           "scaling": 100
         },
         "angleFlipper": 0,
+        "untechable": false,
         "killsProjectiles": true,
+        "extendedParryStun": false,
         "notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties. Cloud explosion is active for 3 frames, which is extended to 12 frames due to 9 frames of hitpause. The last 3 frames of hitpause will decay the base knockback by 1.5, which then remains at 4.5 BKB until the move is no longer active."
       },
       "sourspot": {
@@ -781,7 +819,9 @@
           "scaling": 0
         },
         "angleFlipper": 6,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     }
   },
@@ -812,7 +852,9 @@
           "scaling": 40
         },
         "angleFlipper": 6,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "above": {
         "active": {
@@ -833,7 +875,9 @@
           "scaling": 40
         },
         "angleFlipper": 6,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "late": {
         "active": {
@@ -854,7 +898,9 @@
           "scaling": 20
         },
         "angleFlipper": 6,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     },
     "strong": {
@@ -870,7 +916,6 @@
           "to": 17,
           "active": 2
         },
-        "untechable": true,
         "damage": 3,
         "angle": 80,
         "knockback": {
@@ -884,7 +929,9 @@
           "scaling": 0
         },
         "angleFlipper": 9,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit2": {
         "active": {
@@ -892,7 +939,6 @@
           "to": 20,
           "active": 2
         },
-        "untechable": true,
         "damage": 3,
         "angle": 80,
         "knockback": {
@@ -906,7 +952,9 @@
           "scaling": 0
         },
         "angleFlipper": 9,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit3": {
         "active": {
@@ -927,7 +975,9 @@
           "scaling": 80
         },
         "angleFlipper": 6,
+        "untechable": false,
         "killsProjectiles": true,
+        "extendedParryStun": false,
         "notes": "The last 10 frames of up strong endlag can be cancelled into any special move on hit"
       }
     },
@@ -960,7 +1010,9 @@
         "scaling": 80
       },
       "angleflipper": 6,
-      "killsProjectiles": true
+      "untechable": false,
+      "killsProjectiles": true,
+      "extendedParryStun": false
     },
     "special": {
       "startup": 12,
@@ -999,9 +1051,11 @@
           "scaling": 0
         },
         "forceFlinch": 1,
-        "hitLockout": 4,
         "angleFlipper": 6,
-        "killsProjectiles": false
+        "hitLockout": 4,
+        "untechable": false,
+        "killsProjectiles": false,
+        "extendedParryStun": false
       },
       "hit2": {
         "active": {
@@ -1053,7 +1107,9 @@
         "scaling": 60
       },
       "angleFlipper": 0,
-      "killsProjectiles": true
+      "untechable": false,
+      "killsProjectiles": true,
+      "extendedParryStun": false
     },
     "strong": {
       "startup": 8,
@@ -1068,7 +1124,6 @@
           "to": 10,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 0,
         "knockback": {
@@ -1082,7 +1137,9 @@
           "scaling": 0
         },
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit2": {
         "active": {
@@ -1090,7 +1147,6 @@
           "to": 14,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 180,
         "knockback": {
@@ -1104,7 +1160,9 @@
           "scaling": 0
         },
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit3": {
         "active": {
@@ -1112,7 +1170,6 @@
           "to": 18,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 0,
         "knockback": {
@@ -1126,7 +1183,9 @@
           "scaling": 0
         },
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit4": {
         "active": {
@@ -1134,7 +1193,6 @@
           "to": 22,
           "frames": 2
         },
-        "untechable": true,
         "damage": 2,
         "angle": 180,
         "knockback": {
@@ -1148,7 +1206,9 @@
           "scaling": 0
         },
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "hit5": {
         "active": {
@@ -1168,7 +1228,9 @@
           "scaling": 60
         },
         "angleFlipper": 6,
+        "untechable": false,
         "killsProjectiles": true,
+        "extendedParryStun": false,
         "notes": "The last 5 frames of down strong endlag can be cancelled into any special move on hit"
       }
     },
@@ -1202,7 +1264,9 @@
           "scaling": 100
         },
         "angleFlipper": 0,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       },
       "sourspot": {
         "active": {
@@ -1223,7 +1287,9 @@
           "scaling": 0
         },
         "angleFlipper": 6,
-        "killsProjectiles": true
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
       }
     },
     "special": {
@@ -1252,8 +1318,9 @@
           "base": 8,
           "scaling": 60
         },
-        "hitLockout": 6,
         "angleFlipper": 8,
+        "hitLockout": 6,
+        "untechable": false,
         "killsProjectiles": false,
         "extendedParryStun": false,
         "notes": "Interrupting Absa by hitting her before the cloud is primed will prevent the hitbox from becoming active, however the cloud will still remain. If a cloud does not exist and Absa is interuppted before frame 24, one will not be created. Starting the timer on down-special begins a 40 frame cooldown on both cloud hop and forward-special, preventing a new cloud from being created during the initial charge time of the cloud bomb. Once the cloud bomb has finished detonating (after the last active frame) you are able to use it again after a 12 frame cooldown."
@@ -1282,8 +1349,9 @@
           "base": 8,
           "scaling": 60
         },
-        "hitLockout": 6,
         "angleFlipper": 8,
+        "hitLockout": 6,
+        "untechable": false,
         "killsProjectiles": false,
         "extendedParryStun": false,
         "notes": "Once the cloud bomb has finished detonating (after the last active frame) you are able to use it again after a 12 frame cooldown."
