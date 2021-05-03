@@ -1047,8 +1047,8 @@
         "priority": 4,
         "hitstunModifier": 1,
         "hitpause": {
-          "base": 4,
-          "scaling": 0
+          "base": 5,
+          "scaling": 15
         },
         "forceFlinch": 1,
         "angleFlipper": 6,
@@ -1077,7 +1077,25 @@
             "whiff": 47,
             "hit": 43
           }
-        }
+        },
+        "damage": 4,
+        "angle": 361,
+        "knockback": {
+          "base": 5,
+          "scaling": 15
+        },
+        "priority": 4,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 4,
+          "scaling": 15
+        },
+        "forceFlinch": 1,
+        "angleFlipper": 6,
+        "hitLockout": 4,
+        "untechable": false,
+        "killsProjectiles": false,
+        "extendedParryStun": false
       }
     }
   },
