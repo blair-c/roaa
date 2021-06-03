@@ -20,6 +20,7 @@
       },
       "FAF": 43,
       "hit1": {
+        "name": "Hit 1",
         "active": {
           "from": 7,
           "to": 9,
@@ -43,6 +44,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "active": {
           "from": 13,
           "to": 15,
@@ -157,6 +159,7 @@
   },
   "jab": {
     "hit1": {
+      "name": "Hit 1",
       "startup": 3,
       "active": {
         "from": 4,
@@ -187,6 +190,7 @@
       "notes": "If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0. If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
     },
     "hit2": {
+      "name": "Hit 2",
       "startup": 0,
       "active": {
         "from": 14,
@@ -230,6 +234,7 @@
       },
       "FAF": 49,
       "hit1": {
+        "name": "Hit 1",
         "active": {
           "from": 9,
           "to": 10,
@@ -253,6 +258,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "active": {
           "from": 13,
           "to": 14,
@@ -276,6 +282,7 @@
         "extendedParryStun": false
       },
       "hit3": {
+        "name": "Hit 3",
         "active": {
           "from": 17,
           "to": 18,
@@ -299,6 +306,7 @@
         "extendedParryStun": false
       },
       "hit4": {
+        "name": "Hit 4",
         "active": {
           "from": 21,
           "to": 22,
@@ -322,6 +330,7 @@
         "extendedParryStun": false
       },
       "hit5": {
+        "name": "Hit 5",
         "active": {
           "from": 29,
           "to": 30,
@@ -348,6 +357,7 @@
     "special": {
       "cloud": {
         "hop": {
+          "name": "Cloud Hop",
           "startup": 15,
           "FAF": 17,
           "cooldown": {
@@ -356,6 +366,7 @@
           "notes": "Interrupting Absa by hitting her during the cloud hop startup will prevent the cloud from being created."
         },
         "pop": {
+          "name": "Cloud Pop",
           "startup": {
             "initial": 3,
             "cloud": 4
@@ -393,6 +404,7 @@
         }
       },
       "thunderLine": {
+        "name": "Thunder Line",
         "startup": 20,
         "active": {
           "from": 29,
@@ -427,6 +439,7 @@
         "extendedParryStun": true,
         "notes": "Releasing the charge at any time before frame 15 will cause Absa to transition immediately into cloud burst, with the cloud exploding 5 frames later. Interrupting Absa by hitting her before the thunder bolt becomes active will prevent both hitboxes from becoming active, however the cloud will still remain. Hitting Absa on the first active frame of the thunder bolt (f29) will cause the bolt to be active for only 1 frame, however the cloud will still explode at its regular time.",
         "cloud": {
+          "name": "Thunder Line (Cloud)",
           "active": {
             "from": 34,
             "to": 37,
@@ -463,6 +476,7 @@
   "forward": {
     "tilt": {
       "hit1": {
+        "name": "Hit 1",
         "startup": 7,
         "active": {
           "from": 8,
@@ -492,6 +506,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "startup": {
           "absolute": 12,
           "relative": 27
@@ -545,6 +560,7 @@
       },
       "FAF": 46,
       "hit1": {
+        "name": "Hit 1",
         "active": {
           "from": 12,
           "to": 13,
@@ -568,6 +584,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "active": {
           "from": 14,
           "to": 15,
@@ -591,6 +608,7 @@
         "extendedParryStun": false
       },
       "hit3": {
+        "name": "Hit 3",
         "active": {
           "from": 16,
           "to": 17,
@@ -614,6 +632,7 @@
         "extendedParryStun": false
       },
       "hit4": {
+        "name": "Hit 4",
         "active": {
           "from": 18,
           "to": 19,
@@ -637,6 +656,7 @@
         "extendedParryStun": false
       },
       "hit5": {
+        "name": "Hit 5",
         "active": {
           "from": 20,
           "to": 22,
@@ -673,6 +693,7 @@
       },
       "FAF": 33,
       "sweetspot": {
+        "name": "Sweetspot",
         "active": {
           "from": 9,
           "to": 10,
@@ -697,6 +718,7 @@
         "notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties. Cloud explosion is active for 3 frames, which is extended to 12 frames due to 9 frames of hitpause. The last 3 frames of hitpause will decay the base knockback by 1.5, which then remains at 6.5 BKB until the move is no longer active."
       },
       "sourspot": {
+        "name": "Sourspot",
         "startup": 8,
         "active": {
           "from": 10,
@@ -777,6 +799,7 @@
       },
       "FAF": 37,
       "sweetspot": {
+        "name": "Sweetspot",
         "active": {
           "from": 13,
           "to": 14,
@@ -801,6 +824,7 @@
         "notes": "Can explode cloud by kicking it to extend hitbox with identical knockback properties. Cloud explosion is active for 3 frames, which is extended to 12 frames due to 9 frames of hitpause. The last 3 frames of hitpause will decay the base knockback by 1.5, which then remains at 4.5 BKB until the move is no longer active."
       },
       "sourspot": {
+        "name": "Sourspot",
         "active": {
           "from": 14,
           "to": 16,
@@ -834,6 +858,7 @@
       },
       "FAF": 32,
       "center": {
+        "name": "Center",
         "active": {
           "from": 11,
           "to": 12,
@@ -857,6 +882,7 @@
         "extendedParryStun": false
       },
       "above": {
+        "name": "Above",
         "active": {
           "from": 11,
           "to": 12,
@@ -880,6 +906,7 @@
         "extendedParryStun": false
       },
       "late": {
+        "name": "Late",
         "active": {
           "from": 13,
           "to": 17,
@@ -911,6 +938,7 @@
       },
       "FAF": 51,
       "hit1": {
+        "name": "Hit 1",
         "active": {
           "from": 16,
           "to": 17,
@@ -934,6 +962,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "active": {
           "from": 19,
           "to": 20,
@@ -957,6 +986,7 @@
         "extendedParryStun": false
       },
       "hit3": {
+        "name": "Hit 3",
         "active": {
           "from": 22,
           "to": 24,
@@ -1018,6 +1048,7 @@
       "startup": 12,
       "notes": "Unique endlag values. When travelling from ground to air, Absa will cancel part of the endlag and be actionable without going into prat-fall. This also applies when touching the ground with the first part of up special before becoming airborne again. Can shift the up-special angle downwards slightly while travelling horizontally in the air by inputting fast-fall. Snaps to the ledge within 16px while moving horizontally.",
       "hit1": {
+        "name": "Hit 1",
         "active": {
           "from": 13,
           "to": 20
@@ -1058,6 +1089,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "active": {
           "from": 27,
           "to": 34
@@ -1137,6 +1169,7 @@
       },
       "FAF": 48,
       "hit1": {
+        "name": "Hit 1",
         "active": {
           "from": 9,
           "to": 10,
@@ -1160,6 +1193,7 @@
         "extendedParryStun": false
       },
       "hit2": {
+        "name": "Hit 2",
         "active": {
           "from": 13,
           "to": 14,
@@ -1183,6 +1217,7 @@
         "extendedParryStun": false
       },
       "hit3": {
+        "name": "Hit 3",
         "active": {
           "from": 17,
           "to": 18,
@@ -1206,6 +1241,7 @@
         "extendedParryStun": false
       },
       "hit4": {
+        "name": "Hit 4",
         "active": {
           "from": 21,
           "to": 22,
@@ -1229,6 +1265,7 @@
         "extendedParryStun": false
       },
       "hit5": {
+        "name": "Hit 5",
         "active": {
           "from": 26,
           "to": 29
@@ -1264,6 +1301,7 @@
       },
       "FAF": 33,
       "sweetspot": {
+        "name": "Sweetspot",
         "active": {
           "from": 9,
           "to": 10,
@@ -1287,6 +1325,7 @@
         "extendedParryStun": false
       },
       "sourspot": {
+        "name": "Sourspot",
         "active": {
           "from": 10,
           "to": 12,
@@ -1312,6 +1351,7 @@
     },
     "special": {
       "cloudBomb": {
+        "name": "Cloud Bomb",
         "startup": 23,
         "active": {
           "from": 114,
@@ -1344,6 +1384,7 @@
         "notes": "Interrupting Absa by hitting her before the cloud is primed will prevent the hitbox from becoming active, however the cloud will still remain. If a cloud does not exist and Absa is interuppted before frame 24, one will not be created. Starting the timer on down-special begins a 40 frame cooldown on both cloud hop and forward-special, preventing a new cloud from being created during the initial charge time of the cloud bomb. Once the cloud bomb has finished detonating (after the last active frame) you are able to use it again after a 12 frame cooldown."
       },
       "chargedToAbsa": {
+        "name": "Charged to Absa",
         "startup": 39,
         "active": {
           "from": 148,
