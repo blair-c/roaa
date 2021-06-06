@@ -59,9 +59,10 @@
         "priority": 2,
         "hitstunModifier": 1,
         "hitpause": {
-          "base": 0,
+          "base": 5,
           "scaling": 0
         },
+        "angleFlipper": 0,
         "untechable": false,
         "killsProjectiles": true,
         "extendedParryStun": false
