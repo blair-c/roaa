@@ -167,10 +167,7 @@
         "to": 6,
         "frames": 3
       },
-      "endlag": {
-        "hit": 15,
-        "whiff": 15
-      },
+      "endlag": 15,
       "FAF": 22,
       "damage": 3,
       "angle": 70,
@@ -198,10 +195,7 @@
         "to": 16,
         "frames": 3
       },
-      "endlag": {
-        "hit": 15,
-        "whiff": 15
-      },
+      "endlag": 15,
       "FAF": 32,
       "damage": 4,
       "angle": 361,
