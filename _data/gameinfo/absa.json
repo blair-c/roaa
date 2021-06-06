@@ -159,8 +159,8 @@
     }
   },
   "jab": {
-    "hit1": {
-      "name": "Hit 1",
+    "jab1": {
+      "name": "Jab 1",
       "startup": 3,
       "active": {
         "from": 4,
@@ -187,8 +187,8 @@
       "extendedParryStun": false,
       "notes": "If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0. If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
     },
-    "hit2": {
-      "name": "Hit 2",
+    "jab2": {
+      "name": "Jab 2",
       "startup": 0,
       "active": {
         "from": 14,
