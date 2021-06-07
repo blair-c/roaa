@@ -169,6 +169,20 @@
       },
       "endlag": 15,
       "FAF": 22,
+      "cancellable": {
+        "jab2": {
+          "from": 6,
+          "to": 7
+        },
+        "jab1": {
+          "from": 8,
+          "to": 15
+        },
+        "tilts": {
+          "from": 6,
+          "to": 15
+        }
+      },
       "damage": 3,
       "angle": 70,
       "knockback": {
@@ -197,6 +211,16 @@
       },
       "endlag": 15,
       "FAF": 32,
+      "cancellable": {
+        "jab1": {
+          "from": 6,
+          "to": 15
+        },
+        "tilts": {
+          "from": 6,
+          "to": 15
+        }
+      },
       "damage": 4,
       "angle": 361,
       "knockback": {
@@ -554,6 +578,12 @@
         "whiff": 23
       },
       "FAF": 46,
+      "cancellable": {
+        "special": {
+          "from": 8,
+          "to": 15
+        }
+      },
       "hit1": {
         "name": "Hit 1",
         "active": {
@@ -672,8 +702,7 @@
         "angleFlipper": 0,
         "untechable": false,
         "killsProjectiles": true,
-        "extendedParryStun": false,
-        "notes": "The last 8 frames of forward strong endlag can be cancelled into any special move on hit"
+        "extendedParryStun": false
       }
     },
     "air": {
@@ -932,6 +961,12 @@
         "whiff": 26
       },
       "FAF": 51,
+      "cancellable": {
+        "special": {
+          "from": 8,
+          "to": 17
+        }
+      },
       "hit1": {
         "name": "Hit 1",
         "active": {
@@ -1002,8 +1037,7 @@
         "angleFlipper": 6,
         "untechable": false,
         "killsProjectiles": true,
-        "extendedParryStun": false,
-        "notes": "The last 10 frames of up strong endlag can be cancelled into any special move on hit"
+        "extendedParryStun": false
       }
     },
     "air": {
@@ -1064,6 +1098,12 @@
             "hit": 27
           }
         },
+        "cancellable": {
+          "wallJump": {
+            "from": 27,
+            "to": null
+          }
+        },
         "damage": 4,
         "angle": 361,
         "knockback": {
@@ -1103,6 +1143,16 @@
           "cancel": {
             "whiff": 47,
             "hit": 43
+          }
+        },
+        "cancellable": {
+          "wallJump": {
+            "from": 35,
+            "to": null
+          },
+          "fastFall": {
+            "from": 56,
+            "to": null
           }
         },
         "damage": 4,
@@ -1163,6 +1213,12 @@
         "whiff": 18
       },
       "FAF": 48,
+      "cancellable": {
+        "special": {
+          "from": 8,
+          "to": 12
+        }
+      },
       "hit1": {
         "name": "Hit 1",
         "active": {
@@ -1280,8 +1336,7 @@
         "angleFlipper": 6,
         "untechable": false,
         "killsProjectiles": true,
-        "extendedParryStun": false,
-        "notes": "The last 5 frames of down strong endlag can be cancelled into any special move on hit"
+        "extendedParryStun": false
       }
     },
     "air": {
