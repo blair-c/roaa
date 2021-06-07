@@ -228,7 +228,7 @@
         "scaling": 0
       },
       "priority": 1,
-      "hitstun": 1,
+      "hitstunModifier": 1,
       "hitpause": {
         "base": 5,
         "scaling": 0
@@ -514,7 +514,7 @@
           "scaling": 30
         },
         "priority": 4,
-        "hitstun": 1,
+        "hitstunModifier": 1,
         "hitpause": {
           "base": 8,
           "scaling": 20
