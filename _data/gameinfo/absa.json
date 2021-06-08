@@ -172,15 +172,18 @@
       "cancellable": {
         "jab2": {
           "from": 6,
-          "to": 7
+          "to": 7,
+          "window": 2
         },
         "jab1": {
           "from": 8,
-          "to": 15
+          "to": 15,
+          "window": 8
         },
         "tilts": {
           "from": 6,
-          "to": 15
+          "to": 15,
+          "window": 10
         }
       },
       "damage": 3,
@@ -214,11 +217,13 @@
       "cancellable": {
         "jab1": {
           "from": 6,
-          "to": 15
+          "to": 15,
+          "window": 10
         },
         "tilts": {
           "from": 6,
-          "to": 15
+          "to": 15,
+          "window": 10
         }
       },
       "damage": 4,
@@ -581,7 +586,8 @@
       "cancellable": {
         "special": {
           "from": 8,
-          "to": 15
+          "to": 15,
+          "window": 8
         }
       },
       "hit1": {
@@ -964,7 +970,8 @@
       "cancellable": {
         "special": {
           "from": 8,
-          "to": 17
+          "to": 17,
+          "window": 10
         }
       },
       "hit1": {
@@ -1101,7 +1108,8 @@
         "cancellable": {
           "wallJump": {
             "from": 27,
-            "to": null
+            "to": null,
+            "window": null
           }
         },
         "damage": 4,
@@ -1148,11 +1156,13 @@
         "cancellable": {
           "wallJump": {
             "from": 35,
-            "to": null
+            "to": null,
+            "window": null
           },
           "fastFall": {
             "from": 56,
-            "to": null
+            "to": null,
+            "window": null
           }
         },
         "damage": 4,
@@ -1216,7 +1226,8 @@
       "cancellable": {
         "special": {
           "from": 8,
-          "to": 12
+          "to": 12,
+          "window": 5
         }
       },
       "hit1": {
