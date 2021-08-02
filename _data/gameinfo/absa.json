@@ -458,7 +458,7 @@
           "base": {
             "initial": 9,
             "end": 6,
-            "scaling": "Linear"
+            "scaling": "linear"
           },
           "scaling": 100
         },
@@ -490,7 +490,7 @@
             "base": {
               "initial": 9,
               "end": 6,
-              "scaling": "Linear"
+              "scaling": "linear"
             },
             "scaling": 100
           },
