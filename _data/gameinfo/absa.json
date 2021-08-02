@@ -159,6 +159,7 @@
     }
   },
   "jab": {
+    "notes": "If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards.",
     "jab1": {
       "name": "Jab 1",
       "startup": 3,
@@ -202,7 +203,15 @@
       "untechable": false,
       "killsProjectiles": true,
       "extendedParryStun": false,
-      "notes": "If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0. If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
+      "loop": {
+        "startup": 0,
+        "active": {
+          "from": 1,
+          "to": 3,
+          "frames": 3
+        },
+        "notes": "If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0."
+      }
     },
     "jab2": {
       "name": "Jab 2",
@@ -242,7 +251,15 @@
       "untechable": false,
       "killsProjectiles": true,
       "extendedParryStun": false,
-      "notes": "Jab 2 loops back into Jab 1. If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0. If you hit another character or object at any time during the jab loop, Absa will be able to cancel into a turnaround tilt at any point in the loop afterwards."
+      "loop": {
+        "startup": 0,
+        "active": {
+          "from": 1,
+          "to": 3,
+          "frames": 3
+        },
+        "notes": "If jab is held 1 frame prior to the next part of Absa's jab loop the next hitbox will become active on the next frame, technically making the startup of her jab loops 0."
+      }
     }
   },
   "neutral": {
