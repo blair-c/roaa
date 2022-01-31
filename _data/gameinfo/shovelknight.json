@@ -1,0 +1,1655 @@
+{
+  "weight": 0.95,
+  "groundFriction": 0.60,
+  "dash": {
+    "initial": {
+      "speed": 6.25,
+      "time": 10
+    },
+    "speed": 6,
+    "stopTime": 6,
+    "turn": {
+      "time": 18,
+      "deceleration": 0.5
+    },
+    "attack": {
+      "startup": 7,
+      "endlag": {
+        "hit": 15,
+        "whiff": 23
+      },
+      "FAF": 41,
+      "early": {
+        "name": "Early",
+        "active": {
+          "from": 8,
+          "to": 13,
+          "frames": 6
+        },
+        "damage": 8,
+        "angle": 60,
+        "knockback": {
+          "base": 7,
+          "scaling": 40
+        },
+        "priority": 2,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 40
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "late": {
+        "name": "Late/Sour",
+        "active": {
+          "from": 14,
+          "to": 17,
+          "frames": 4
+        },
+        "damage": 6,
+        "angle": 60,
+        "knockback": {
+          "base": {
+            "initial": 6,
+            "end": 3,
+            "scaling": "Linear"
+          },
+          "scaling": 25
+        },
+        "priority": 2,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 40
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      }
+    }
+  },
+  "walk": {
+    "speed": 3.25,
+    "acceleration": 0.2,
+    "turnTime": 6
+  },
+  "waveland": {
+    "friction": 0.13,
+    "time": 8
+  },
+  "air": {
+    "fallSpeed": {
+      "max": 10,
+      "fastFall": 13
+    },
+    "speed": {
+      "acceleration": 0.3,
+      "max": 6
+    },
+    "friction": 0.04,
+    "gravity": {
+      "acceleration": 0.5,
+      "hitstunAcceleration": 0.5
+    }
+  },
+  "jump": {
+    "startTime": 5,
+    "speed": {
+      "fullHop": 10.99,
+      "shortHop": 6,
+      "maxHorizontal": 7
+    }
+  },
+  "doubleJump": {
+    "amount": 1,
+    "speed": 10
+  },
+  "wallJump": {
+    "speed": {
+      "vertical": 9,
+      "horizontal": 5
+    }
+  },
+  "airDodge": {
+    "startup": 2,
+    "active": 12,
+    "recovery": 12,
+    "speed": 7.5
+  },
+  "pratFallAcceleration": 1,
+  "landTime": {
+    "normal": 4,
+    "prat": 20
+  },
+  "parry": {
+    "startup": 2,
+    "active": 8,
+    "recovery": 20
+  },
+  "roll": {
+    "startup": 3,
+    "active": 14,
+    "speed": 9,
+    "recovery": 12
+  },
+  "tech": {
+    "active": 14,
+    "recovery": 12,
+    "roll": {
+      "startup": 8,
+      "active": 12,
+      "speed": 9,
+      "recovery": 12
+    }
+  },
+  "hurtbox": {
+    "idle": {
+      "height": 59,
+      "width": 42
+    },
+    "crouch": {
+      "height": 55,
+      "width": 42
+    },
+    "hitstun": {
+      "height": 59,
+      "width": 42
+    }
+  },
+  "jab": {
+    "startup": 4,
+    "active": {
+      "from": 5,
+      "to": 6,
+      "frames": 2
+    },
+    "endlag": {
+      "hit": 18,
+      "whiff": 25
+    },
+    "FAF": 25,
+    "damage": 6,
+    "angle": 60,
+    "knockback": {
+      "base": 6,
+      "scaling": 50
+    },
+    "priority": 6,
+    "hitstunModifier": 1,
+    "hitpause": {
+      "base": 7,
+      "scaling": 70
+    },
+    "angleFlipper": 6,
+    "untechable": false,
+    "killsProjectiles": true,
+    "extendedParryStun": false
+  },
+  "neutral": {
+    "air": {
+      "startup": 4,
+      "active": {
+        "from": 5,
+        "to": 6,
+        "frames": 2
+      },
+      "endlag": {
+        "hit": 16,
+        "whiff": 24
+      },
+      "landingLag": {
+        "hit": 4,
+        "whiff": 6
+      },
+      "FAF": 31,
+      "damage": 6,
+      "angle": 361,
+      "knockback": {
+        "base": 6,
+        "scaling": 50
+      },
+      "priority": 6,
+      "hitstunModifier": 1,
+      "hitpause": {
+        "base": 7,
+        "scaling": 70
+      },
+      "angleFlipper": 6,
+      "untechable": false,
+      "killsProjectiles": true,
+      "extendedParryStun": false,
+      "notes": "Can transition into jab if landing during startup, replacing landing lag with jab's endlag (not Nair)."
+    },
+    "special": {
+      "coinCapture": {
+        "name": "Coin Capture",
+        "startup": 7,
+        "endlag": 20,
+        "FAF": 28,
+        "notes": "(Coins captured 8-, once captured they cannot change ownership and will travel to Shovel Knight even if he is interrupted)"
+      },
+      "warHorn": {
+        "name": "War Horn",
+        "price": 1000,
+        "startup": 25,
+        "active": {
+          "from": 26,
+          "to": 33,
+          "frames": 8
+        },
+        "endlag": 35,
+        "FAF": 69,
+        "notes": "Air brakes during active frames.",
+        "center": {
+          "name": "War Horn (Center)",
+          "damage": 8,
+          "angle": 45,
+          "knockback": {
+            "base": {
+              "initial": 6,
+              "end": 3
+            },
+            "scaling": 70
+          },
+          "priority": 10,
+          "hitstunModifier": 0.9,
+          "hitpause": {
+            "base": 10,
+            "scaling": 50
+          },
+          "angleFlipper": 8,
+          "hitLockout": 10,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": true
+        },
+        "sweetspot": {
+          "damage": 12,
+          "angle": 45,
+          "knockback": {
+            "base": {
+              "initial": 7,
+              "end": 3
+            },
+            "scaling": 100
+          },
+          "priority": 9,
+          "hitstunModifier": 0.9,
+          "hitpause": {
+            "base": 10,
+            "scaling": 50
+          },
+          "angleFlipper": 8,
+          "hitLockout": 10,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": true
+        }
+      },
+      "mobileGear": {
+        "name": "Mobile Gear",
+        "price": 1200,
+        "throw": {
+          "name": "Mobile Gear (Throw)",
+          "startup": 15,
+          "active": {
+            "from": 16,
+            "to": null,
+            "frames": null
+          },
+          "endlag": 13,
+          "FAF": 29,
+          "damage": 2,
+          "angle": 60,
+          "knockback": {
+            "base": 6,
+            "scaling": 20
+          },
+          "priority": 1,
+          "hitstunModifier": 0.5,
+          "cooldown": 120,
+          "hitpause": {
+            "base": 5,
+            "scaling": 0
+          },
+          "angleFlipper": 0,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": true,
+          "notes": "You can control the trajectory of the gear by holding a horizontal or vertical direction on the left stick, allowing Shovel Knight to throw the gear in 5 different arcs. The cooldown applies on the last frame of endlag and is only relevant if the gear is destroyed or despawned sooner than 120 frames, otherwise the gear is throwable immediately on the previous one hitting entering the blastzone."
+        },
+        "mobile": {
+          "name": "Mobile Gear (Mobile)",
+          "startup": {
+            "fromLanding": 51
+          },
+          "active": {
+            "from": 52,
+            "to": null,
+            "frames": null
+          },
+          "damage": 2,
+          "angle": 55,
+          "knockback": {
+            "base": 7,
+            "scaling": 10
+          },
+          "priority": 1,
+          "hitstunModifier": 0.5,
+          "hitpause": {
+            "base": 5,
+            "scaling": 0
+          },
+          "angleFlipper": 0,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": true,
+          "notes": "If Mobile Gear's path is blocked, it will lose its hitbox and disappear 50 frames later. Unblocking its path will not make it mobile again."
+        }
+      }
+    },
+      "ghostGlove": {
+        "name": "Ghost Glove",
+        "price": 1400,
+        "startup": 16,
+        "active": {
+          "from": 17,
+          "to": 35,
+          "frames": 19,
+          "loop": {
+            "gap": 2,
+            "frames": 19
+          }
+        },
+        "endlag": {
+          "twoOrLessThrown": 15,
+          "moreThanTwoThrown": 27
+        },
+        "FAF": {
+          "min": 32
+        },
+        "damage": 4,
+        "angle": 36,
+        "knockback": {
+          "base": 6,
+          "scaling": 10
+        },
+        "priority": 1,
+        "hitstunModifier": 0.7,
+        "hitpause": {
+          "base": 4,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": true,
+        "notes": "If performed in the air, landing anytime after frame 17 and before frame 44 cancels the remaining endlag and instead causes default landing lag. This allows you to short hop and time a fast fall to act as soon as possible after throwing the projectile."
+      }
+  },
+  "forward": {
+    "tilt": {
+      "hit1": {
+        "name": "Hit 1",
+        "startup": {
+          "default": 8,
+          "hit2Cancel": 4
+        },
+        "active": {
+          "from": 9,
+          "to": 11,
+          "frames": 3
+        },
+        "endlag": {
+          "hit": 8,
+          "whiff": 12
+        },
+        "FAF": 24,
+        "cancellable": {
+          "hit2": {
+            "hit": {
+              "from": 6,
+              "to": 8,
+              "window": 3
+            },
+            "whiff": {
+              "from": 6,
+              "to": 12,
+              "window": 7,
+              "notes": "Does not apply when looping attack."
+            }
+          }
+        },
+        "damage": 5,
+        "angle": 361,
+        "knockback": {
+          "base": 6,
+          "scaling": 10
+        },
+        "priority": 1,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "hitLockout": 3,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "If looping the attack you must hit your opponent or an object to cancel into Forward Tilt Hit 2."
+      },
+      "hit2": {
+        "name": "Hit 2",
+        "startup": {
+          "absolute": 4,
+          "relative": 20
+        },
+        "active": {
+          "from": {
+            "absolute": 5,
+            "relative": 21
+          },
+          "to": {
+            "absolute": 7,
+            "relative": 23
+          },
+          "frames": 3
+        },
+        "endlag": {
+          "hit": 8,
+          "whiff": 12
+        },
+        "FAF": {
+          "absolute": 20,
+          "relative": 36
+        },
+        "hit2": {
+          "hit": {
+            "from": 6,
+            "to": 8,
+            "frames": 3
+          }
+        },
+        "damage": 5,
+        "angle": 361,
+        "knockback": {
+          "base": 6,
+          "scaling": 10
+        },
+        "priority": 1,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "hitLockout": 3,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Can cancel into Forward Tilt Hit 1 on hit to loop the attack."
+      }
+    },
+    "strong": {
+      "startup": 13,
+      "active": {
+        "from": 14,
+        "to": 16,
+        "frames": 3
+      },
+      "endlag": {
+        "hit": 18,
+        "whiff": 27
+      },
+      "FAF": 44,
+      "damage": 11,
+      "angle": 361,
+      "knockback": {
+        "base": 8,
+        "scaling": 100
+      },
+      "priority": 7,
+      "hitstunModifier": 1,
+      "hitpause": {
+        "base": 9,
+        "scaling": 110
+      },
+      "angleFlipper": 0,
+      "hitLockout": 10,
+      "untechable": false,
+      "killsProjectiles": true,
+      "extendedParryStun": false,
+      "notes": "Dynamo Mail allows you to use Forward Strong in the air. You cannot cancel the move by landing during startup, active frames of endlag, meaning it perfectly transitions into a grounded attack."
+    },
+    "air": {
+      "hit1": {
+        "name": "Hit 1",
+        "startup": {
+          "default": 8,
+          "hit2Cancel": 4
+        },
+        "active": {
+          "from": 9,
+          "to": 11,
+          "frames": 3
+        },
+        "endlag": {
+          "hit": 8,
+          "whiff": 12
+        },
+        "FAF": 24,
+        "cancellable": {
+          "hit2": {
+            "hit": {
+              "from": 6,
+              "to": 8,
+              "window": 3
+            },
+            "whiff": {
+              "from": 6,
+              "to": 12,
+              "window": 7,
+              "notes": "Does not apply when looping attack."
+            }
+          }
+        },
+        "damage": 5,
+        "angle": 361,
+        "knockback": {
+          "base": 6,
+          "scaling": 10
+        },
+        "priority": 1,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "hitLockout": 3,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Transitions into Forward Tilt when landing in all stages of the move, making this move have no landing lag. If looping the attack you must hit your opponent or an object to cancel into Forward Air Hit 2."
+      },
+      "hit2": {
+        "name": "Hit 2",
+        "startup": {
+          "absolute": 4,
+          "relative": 20
+        },
+        "active": {
+          "from": {
+            "absolute": 5,
+            "relative": 21
+          },
+          "to": {
+            "absolute": 7,
+            "relative": 23
+          },
+          "frames": 3
+        },
+        "endlag": {
+          "hit": 8,
+          "whiff": 12
+        },
+        "FAF": {
+          "absolute": 20,
+          "relative": 36
+        },
+        "hit2": {
+          "hit": {
+            "from": 6,
+            "to": 8,
+            "frames": 3
+          }
+        },
+        "damage": 5,
+        "angle": 361,
+        "knockback": {
+          "base": 6,
+          "scaling": 10
+        },
+        "priority": 1,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "hitLockout": 3,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Can cancel into Forward Air Hit 1 on hit to loop the attack."
+      }
+    },
+    "special": {
+      "startup": {
+        "initial": 16,
+        "halfCharge": 56,
+        "fullCharge": 95,
+        "dagger": 2
+      },
+      "active": {
+        "from": {
+          "minCharge": 19,
+          "halfCharge": 59,
+          "fullCharge": 98
+        },
+        "to": {
+          "minCharge": 31,
+          "halfCharge": 85,
+          "fullCharge": 138
+        },
+        "frames": {
+          "minCharge": 13,
+          "halfCharge": 27,
+          "fullCharge": 40
+        }
+      },
+      "endlag": {
+        "hitOrBounce": 11,
+        "jumpCancel": 15,
+        "whiff": 17
+      },
+      "FAF": {
+        "hitOrBounce": 12,
+        "minCharge": 49,
+        "halfCharge": 103,
+        "fullCharge": 156
+      },
+      "cancellable": {
+        "jump": {
+          "from": {
+            "minCharge": 20,
+            "halfCharge": 60,
+            "fullCharge": 99
+          },
+          "to": {
+            "minCharge": 31,
+            "halfCharge": 85,
+            "fullCharge": 138
+          },
+          "window": {
+            "minCharge": 12,
+            "halfCharge": 138,
+            "fullCharge": 40
+          },
+          "notes": "Only jump-cancellable on the ground."
+        }
+      },
+      "damage": {
+        "minCharge": 6,
+        "halfCharge": 7,
+        "fullCharge": 8
+      },
+      "angle": 361,
+      "knockback": {
+        "base": {
+          "minCharge": 6,
+          "halfCharge": 6.5,
+          "fullCharge": 7
+        },
+        "scaling": {
+          "minCharge": 50,
+          "halfCharge": 55,
+          "fullCharge": 60
+        }
+      },
+      "priority": {
+        "tip": 5,
+        "hilt": 1
+      },
+      "hitstunModifier": 1,
+      "cooldown": {
+        "air": {
+          "whiff": 30
+        },
+        "hitOrBounce": 40
+      },
+      "hitpause": {
+        "base": 8,
+        "scaling": 80
+      },
+      "angleFlipper": 0,
+      "untechable": false,
+      "killsProjectiles": false,
+      "extendedParryStun": false,
+      "notes": "Although the animation after hitting a character or bouncing off an object, wall or the blastzone lasts for 20 frames, you are able to cancel it after 11 frames (fully actionable f12). Jumping out of grounded Forward-Special during its travel leaves you unable to act for 15 frames, (5 frames jump-squat, 10 in the air, fully actionable f16), but uninterrupted the animation lasts for 30 frames in full. Holding down on any actionable frame during either the hit/bounce animation or during jump-cancel's momentum will cancel the animation and slow Shovel Knight's aerial momentum to his usual amount. Holding back on the same frame you jump-cancel will cause Shovel Knight to turnaround on the first frame of jump-squat, allowing him to face the opposite direction in the air. A 30 frame cooldown applies on the final frame of endlag if you are in the air on whiff. On hit or after bouncing all versions of Forward Special will apply a 40 frame cooldown on the first frame of endlag, which is effectively a 29 frame cooldown once you are actionable.",
+      "infinidagger": {
+        "name": "Infinidagger",
+        "startup": {
+          "charge": 95,
+          "dagger": 2
+        },
+        "active": {
+          "from": 98,
+          "to": null,
+          "frames": null
+        },
+        "endlag": {
+          "hitOrBounce": 11,
+          "jumpCancel": 15,
+          "cancel": 18
+        },
+        "FAF": {
+          "hitOrBounce": 12,
+          "cancel": 19
+        },
+        "damage": 12,
+        "angle": 361,
+        "knockback": {
+          "base": 8,
+          "scaling": 110
+        },
+        "priority": {
+          "tip": 5,
+          "hilt": 1
+        },
+        "hitstunModifier": 1,
+        "cooldown": {
+          "air": {
+            "whiff": 30
+          },
+          "hitOrBounce": 40
+        },
+        "hitpause": {
+          "base": 8,
+          "scaling": 80
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Infinidagger is locked in if special is held until the 96th frame of startup, which immediately starts the 2 frame startup window before releasing. It is possible to cancel Infinidagger by inputting parry/air-dodge. You cannot end a fully charged forward special without cancelling it, jumping out of it or bouncing off a character, object, wall or the blastzone. Infinidagger also travels much faster than partially charging forward-special."
+      }
+    }
+  },
+  "back": {
+    "air": {
+      "startup": 12,
+      "endlag": {
+        "hit": 10,
+        "whiff": 15
+      },
+      "landingLag": {
+        "hit": 4,
+        "whiff": 6
+      },
+      "FAF": 36,
+      "hit1": {
+        "name": "Hit 1",
+        "active": {
+          "from": 13,
+          "to": 14,
+          "frames": 2
+        },
+        "damage": 3,
+        "angle": 90,
+        "knockback": {
+          "base": 6,
+          "scaling": 0
+        },
+        "priority": 2,
+        "hitstunModifier": 0.65,
+        "hitpause": {
+          "base": 5,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "hit2": {
+        "name": "Hit 2",
+        "active": {
+          "from": 15,
+          "to": 16,
+          "frames": 2
+        },
+        "damage": 3,
+        "angle": 90,
+        "knockback": {
+          "base": 6,
+          "scaling": 0
+        },
+        "priority": 2,
+        "hitstunModifier": 0.65,
+        "hitpause": {
+          "base": 5,
+          "scaling": 0
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "hit3": {
+        "name": "Hit 3",
+        "active": {
+          "from": 17,
+          "to": 20,
+          "frames": 4
+        },
+        "damage": 4,
+        "angle": 120,
+        "knockback": {
+          "base": 7,
+          "scaling": 70
+        },
+        "priority": 5,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 10,
+          "scaling": 50
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      }
+    }
+  },
+  "up": {
+    "tilt": {
+      "startup": 8,
+      "active": {
+        "from": 9,
+        "to": 28,
+        "frames": 20
+      },
+      "endlag": {
+        "hit": 10,
+        "whiff": 15
+      },
+      "FAF": 44,
+      "damage": 8,
+      "angle": 90,
+      "knockback": {
+        "base": 8,
+        "scaling": 40
+      },
+      "priority": 3,
+      "hitstunModifier": 1,
+      "hitpause": {
+        "base": 6,
+        "scaling": 30
+      },
+      "angleFlipper": 0,
+      "untechable": false,
+      "killsProjectiles": true,
+      "extendedParryStun": false,
+      "notes": "As Up Tilt counts as a projectile, Shovel Knight does not suffer any hitpause on hitting another character with it."
+    },
+    "strong": {
+      "startup": 8,
+      "endlag": {
+        "hit": 18,
+        "whiff": 27
+      },
+      "FAF": 44,
+      "notes": "Dynamo Mail allows you to use Up Strong in the air. You cannot cancel the move by landing during startup, active frames of endlag, meaning it perfectly transitions into a grounded attack. Can move Kragg/Shovel Knight Rocks.",
+      "hit1": {
+        "name": "Hit 1",
+        "active": {
+          "from": 13,
+          "to": 15,
+          "frames": 3
+        },
+        "front": {
+          "name": "Front",
+          "damage": 11,
+          "angle": 80,
+          "knockback": {
+            "base": 8,
+            "scaling": 110
+          },
+          "priority": 7,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 8,
+            "scaling": 70
+          },
+          "angleFlipper": 0,
+          "hitLockout": 10,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        },
+        "above": {
+          "name": "Above",
+          "damage": 11,
+          "angle": 80,
+          "knockback": {
+            "base": 8,
+            "scaling": 110
+          },
+          "priority": 5,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 8,
+            "scaling": 70
+          },
+          "angleFlipper": 0,
+          "hitLockout": 10,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        }
+      },
+      "hit2": {
+        "name": "Hit 2 (Behind)",
+        "active": {
+          "from": 13,
+          "to": 16,
+          "frames": 2
+        },
+        "damage": 6,
+        "angle": 135,
+        "knockback": {
+          "base": 6,
+          "scaling": 70
+        },
+        "priority": 2,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 8,
+          "scaling": 70
+        },
+        "angleFlipper": 0,
+        "hitLockout": 10,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "rock": {
+        "name": "Rock",
+        "startup": 72,
+        "active": {
+          "from": 73,
+          "to": null,
+          "frames": null
+        },
+        "FAF": 104,
+        "damage": {
+          "onCreation": 6,
+          "movedBy": {
+            "shovelKnight": {
+              "dtilt": 4,
+              "upstrong": {
+                "uncharged": 6,
+                "charged": "Scales with the charge damage multiplier."
+              }
+            },
+            "etalus": {
+              "upair": 6
+            },
+            "wrastor": {
+              "dair": 6
+            },
+            "forsburn": {
+              "cape": 6
+            }
+          }
+        },
+        "angle": 90,
+        "knockback": {
+          "base": 7,
+          "scaling": 80
+        },
+        "priority": 3,
+        "hitstunModifier": 0.8,
+        "hitpause": {
+          "base": 8,
+          "scaling": 0
+        },
+        "forceFlinch": 2,
+        "angleFlipper": 3,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Spawns only if Up-Strong is fully charged (while on the ground). Can angle the initial arc on creating Up-Strong Rock by holding a horizontal direction. Retains a hitbox until landed, spikes while falling. Can be thrown again with set arcs on d-tilt or up-strong, but all other moves break it."
+      }
+    },
+    "air": {
+      "startup": 9,
+      "endlag": {
+        "hit": 15,
+        "whiff": 21
+      },
+      "landingLag": {
+        "hit": 4,
+        "whiff": 6
+      },
+      "FAF": {
+        "noLoop": 38,
+        "1Loop": 42,
+        "2Loop": 46,
+        "3Loop": 50,
+        "4Loop": 54
+      },
+      "notes": "Up Air will loop hit 1 up to 4 times while holding attack. This allows you to delay the final hit, connect hit 1 multiple times and will lift Shovel Knight into the air.",
+      "hit1": {
+        "name": "Hit 1",
+        "active": {
+          "from": 10,
+          "to": 13,
+          "frames": 4,
+          "loop": {
+            "gap": 0,
+            "max": 4
+          }
+        },
+        "damage": 2,
+        "angle": 70,
+        "knockback": {
+          "base": 4,
+          "scaling": 0
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 4,
+          "scaling": 0
+        },
+        "angleFlipper": 4,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "tip": {
+          "name": "Tip",
+          "damage": 2,
+          "angle": 70,
+          "knockback": {
+            "base": 4,
+            "scaling": 0
+          },
+          "priority": 2,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 4,
+            "scaling": 0
+          },
+          "angleFlipper": 4,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        },
+        "body": {
+          "name": "Body",
+          "damage": 2,
+          "angle": 70,
+          "knockback": {
+            "base": 7,
+            "scaling": 0
+          },
+          "priority": 1,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 4,
+            "scaling": 0
+          },
+          "angleFlipper": 4,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        }
+      },
+      "final": {
+        "name": "Final Hit",
+        "active": {
+          "noLoop": {
+            "from": 14,
+            "to": 16
+          },
+          "1Loop": {
+            "from": 18,
+            "to": 20
+          },
+          "2Loop": {
+            "from": 22,
+            "to": 24
+          },
+          "3Loop": {
+            "from": 26,
+            "to": 28
+          },
+          "4Loop": {
+            "from": 30,
+            "to": 32
+          },
+          "frames": 3
+        },
+        "damage": 3,
+        "angle": 90,
+        "knockback": {
+          "base": 6,
+          "scaling": 70
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 7,
+          "scaling": 80
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "tip": {
+          "name": "Tip",
+          "damage": 3,
+          "angle": 90,
+          "knockback": {
+            "base": 6,
+            "scaling": 55
+          },
+          "priority": 2,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 7,
+            "scaling": 80
+          },
+          "angleFlipper": 0,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        }
+      }
+    },
+    "special": {
+      "startup": 12,
+      "endlag": {
+        "hit": 15,
+        "whiff": 20
+      },
+      "FAF": 27,
+      "cancellable": {
+        "wallJump": {
+          "from": 28,
+          "to": null,
+          "window": null
+        }
+      },
+      "notes": "Unable to fastfall until frame 47-, assuming that Up Special does not hit a ceiling during the rising section of the move. Unable to land and refresh resources until frame 58-",
+      "hit1": {
+        "name": "Hit 1",
+        "active": {
+          "from": 13,
+          "to": 14,
+          "frames": 2
+        },
+        "damage": 7,
+        "angle": 135,
+        "knockback": {
+          "base": 8,
+          "scaling": 90
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 8,
+          "scaling": 60
+        },
+        "angleFlipper": 0,
+        "hitLockout": 10,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "sweetspot": {
+          "name": "Hit 1 (Sweetspot)",
+          "damage": 10,
+          "angle": 135,
+          "knockback": {
+            "base": 9,
+            "scaling": 110
+          },
+          "priority": 8,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 10,
+            "scaling": 100
+          },
+          "angleFlipper": 0,
+          "hitLockout": 10,
+          "untechable": true,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        }
+      },
+      "hit2": {
+        "name": "Hit 2 (Swing)",
+        "active": {
+          "from": 15,
+          "to": 16,
+          "frames": 2
+        },
+        "damage": 5,
+        "angle": 65,
+        "knockback": {
+          "base": 10,
+          "scaling": 30
+        },
+        "priority": 3,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 8,
+          "scaling": 40
+        },
+        "angleFlipper": 0,
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "hit3": {
+        "name": "Hit 3 (Rising)",
+        "active": {
+          "from": 19,
+          "to": 32,
+          "frames": 14
+        },
+        "damage": 5,
+        "angle": 65,
+        "knockback": {
+          "base": {
+            "initial": 10,
+            "end": 7,
+            "scaling": "Linear"
+          },
+          "scaling": 30
+        },
+        "priority": 4,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 8,
+          "scaling": 40
+        },
+        "angleFlipper": 0,
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Same hitbox group as Hit 2, meaning you cannot hit a character with this hitbox if they were previously hit by Hit 2."
+      },
+      "hit4": {
+        "name": "Hit 4 (Falling)",
+        "active": {
+          "from": 45,
+          "to": null,
+          "frames": null
+        },
+        "damage": 5,
+        "angle": 270,
+        "knockback": {
+          "base": 5,
+          "scaling": 60
+        },
+        "priority": 8,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 90
+        },
+        "angleFlipper": 0,
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Untechable value forces a missed tech instead of bouncing the opponent off the ground."
+      },
+      "hit5": {
+        "name": "Hit 5 (Landing)",
+        "active": {
+          "from": 1,
+          "to": 6,
+          "frames": 6
+        },
+        "damage": 5,
+        "angle": 70,
+        "knockback": {
+          "base": 6,
+          "scaling": 30
+        },
+        "priority": 3,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 8,
+          "scaling": 20
+        },
+        "angleFlipper": 6,
+        "untechable": false,
+        "killsProjectiles": false,
+        "extendedParryStun": false
+      }
+    }
+  },
+  "down": {
+    "tilt": {
+      "startup": 6,
+      "endlag": {
+        "hit": 12,
+        "whiff": 18
+      },
+      "FAF": 34,
+      "hit1": {
+        "name": "Hit 1",
+        "active": {
+          "from": 7,
+          "to": 8,
+          "frames": 2
+        },
+        "damage": 4,
+        "angle": 270,
+        "knockback": {
+          "base": 4,
+          "scaling": 40
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 20
+        },
+        "forceFlinch": 1,
+        "angleFlipper": 0,
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "hit2": {
+        "name": "Hit 2",
+        "active": {
+          "from": 13,
+          "to": 15,
+          "frames": 3
+        },
+        "damage": 8,
+        "angle": 90,
+        "knockback": {
+          "base": 8,
+          "scaling": 50
+        },
+        "priority": 6,
+        "hitstunModifier": 1.2,
+        "hitpause": {
+          "base": 7,
+          "scaling": 40
+        },
+        "angleFlipper": 0,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Down Tilt has an indentically sized hitbox during Hit 2 which can only hit projectiles. This hitbox has a higher priority value and a knockback angle of 80. This hitbox can move Kragg/Shovel Knight Rocks.",
+        "projectileBox": {
+          "angle": 80,
+          "notes": "Can only hit projectiles. Priority value > 6. Can move Kragg/Shovel Knight rocks."
+        }
+      }
+    },
+    "strong": {
+      "startup": 18,
+      "endlag": {
+        "hit": 20,
+        "whiff": 30
+      },
+      "FAF": 48,
+      "notes": "Holding upwards on the left stick on frame 6 will cause Shovel Knight to jump higher, allowing him to reach standard sized platforms. The charge window for Down Strong begins in the air and raises Shovel Knight's vertical position for 1 extra frame, allowing him to boost high enough to reach the platforms on Abyssal Gates. Dynamo Mail allows you to use Down Strong in the air. Performing Down Strong immediately after jump-squat when Dynamo Mail is active performs a super jump Down Strong, with variations on height for short hop and full hop. Down Strong retains a hitbox until you land or jump-cancel. If you land before Hit 1 is active, you will instead go straight to Hit 2. Can not trigger galaxy kill effect.",
+      "hit1": {
+        "name": "Hit 1 (Falling)",
+        "active": {
+          "from": 19,
+          "to": null,
+          "frames": null
+        },
+        "cancellable": {
+          "jump": {
+            "from": 51,
+            "to": null,
+            "window": null
+          },
+          "upSpecial": {
+            "from": 51,
+            "to": null,
+            "window": null
+          }
+        },
+        "damage": 1,
+        "angle": 270,
+        "knockback": {
+          "base": 7,
+          "scaling": 0
+        },
+        "priority": 2,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 0
+        },
+        "forceFlinch": 1,
+        "angleFlipper": 0,
+        "untechable": true,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Untechable value forces a missed tech instead of bouncing the opponent off the ground. Cannot trigger galaxy kill effect."
+      },
+      "hit2": {
+        "name": "Hit 2 (Landing)",
+        "active": {
+          "from": 1,
+          "to": 3,
+          "frames": 3
+        },
+        "damage": 2,
+        "angle": 135,
+        "knockback": {
+          "base": 3,
+          "scaling": 0
+        },
+        "priority": 2,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 0
+        },
+        "angleFlipper": 6,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Cannot trigger galaxy kill effect."
+      },
+      "hit3": {
+        "name": "Hit 3 (Flame Pillar 1)",
+        "active": {
+          "from": 4,
+          "to": 6,
+          "frames": 3
+        },
+        "damage": 10,
+        "angle": 70,
+        "knockback": {
+          "base": 7,
+          "scaling": 130
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 100
+        },
+        "angleFlipper": 6,
+        "hitLockout": 10,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "hit4": {
+        "name": "Hit 4",
+        "active": {
+          "from": 7,
+          "to": 9,
+          "frames": 3
+        },
+        "damage": 7,
+        "angle": 70,
+        "knockback": {
+          "base": 6,
+          "scaling": 120
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 100
+        },
+        "angleFlipper": 6,
+        "hitLockout": 10,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      },
+      "hit5": {
+        "name": "Hit 5 (Late Flame Pillar)",
+        "active": {
+          "from": 10,
+          "to": 17,
+          "frames": 8
+        },
+        "damage": 4,
+        "angle": 70,
+        "knockback": {
+          "base": 6,
+          "scaling": 50
+        },
+        "priority": 6,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 50
+        },
+        "angleFlipper": 6,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false
+      }
+    },
+    "air": {
+      "startup": 6,
+      "endlag": {
+        "hit": 10,
+        "whiff": 15
+      },
+      "landingLag": {
+        "hit": 12,
+        "whiff": {
+          "standard": 6,
+          "tripled": 18,
+          "notes": "Landing during the active frames or first 10 frames of endlag will cause you to plant the shovel into the ground, causing your landing lag to triple. Due to a general landing lag mechanic, landing during the remaining 5 frames of endlag on whiff after the tripled landing lag period will cause Shovel Knight to enter the default landing lag state."
+        }
+      },
+      "FAF": 33,
+      "early": {
+        "name": "Early",
+        "active": {
+          "from": 7,
+          "to": 8,
+          "frames": 2
+        },
+        "damage": 4,
+        "angle": 70,
+        "knockback": {
+          "base": 6,
+          "scaling": 50
+        },
+        "priority": 10,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 6,
+          "scaling": 50
+        },
+        "angleFlipper": 3,
+        "hitLockout": 20,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "spike": {
+          "name": "Early Spike",
+          "damage": 10,
+          "angle": 270,
+          "knockback": {
+            "base": 6,
+            "scaling": 70
+          },
+          "priority": 2,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 10,
+            "scaling": 120
+          },
+          "angleFlipper": 0,
+          "hitLockout": 20,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        }
+      },
+      "late": {
+        "name": "Late",
+        "active": {
+          "from": 9,
+          "to": 17,
+          "frames": 9
+        },
+        "damage": 7,
+        "angle": 55,
+        "knockback": {
+          "base": 6,
+          "scaling": 50
+        },
+        "priority": 8,
+        "hitstunModifier": 1,
+        "hitpause": {
+          "base": 5,
+          "scaling": 50
+        },
+        "angleFlipper": 3,
+        "hitLockout": 20,
+        "untechable": false,
+        "killsProjectiles": true,
+        "extendedParryStun": false,
+        "notes": "Holding attack will keep Dair's standard hit and late spike hitboxes active. Releasing the attack button after frame 17 will make the hitbox disappear 1 frame later if the attack has not yet hit another character or object. When hitting another character or object, Shovel Knight will bounce and Dair will remain active for a further 11 frames before you are able to begin the endlag state. Landing during the active frames or first 10 frames of endlag will cause you to plant the shovel into the ground, causing your landing lag to triple. Due to a general landing lag mechanic, landing during the remaining 5 frames of endlag on whiff after the tripled landing lag period will cause Shovel Knight to enter the default landing lag state.",
+        "spike": {
+          "name": "Late Spike",
+          "damage": 8,
+          "angle": 270,
+          "knockback": {
+            "base": 6,
+            "scaling": 55
+          },
+          "priority": 2,
+          "hitstunModifier": 1,
+          "hitpause": {
+            "base": 10,
+            "scaling": 100
+          },
+          "angleFlipper": 0,
+          "hitLockout": 20,
+          "untechable": false,
+          "killsProjectiles": true,
+          "extendedParryStun": false
+        }
+      }
+    },
+    "special": {
+
+    },
+    "taunt": {
+
+    }
+  }
+}
