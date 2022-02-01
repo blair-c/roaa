@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{{ site.data.gameinfo.zetterburn | jsonify }}
+{{ site.data.zetterburn | jsonify }}

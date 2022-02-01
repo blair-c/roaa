@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{{ site.data.gameinfo.absa | jsonify }}
+{{ site.data.absa | jsonify }}

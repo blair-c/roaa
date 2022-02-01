@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{{ site.data.gameinfo.clairen | jsonify }}
+{{ site.data.clairen | jsonify }}

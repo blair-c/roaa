@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-{{ site.data.gameinfo.forsburn | jsonify }}
+{{ site.data.forsburn | jsonify }}
